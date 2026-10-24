@@ -28,7 +28,8 @@ choisit les scènes, génère la voix Algenib dans Flora, vérifie chaque prise,
 ./produce.sh youtube en      # → renders/cubrik-youtube-en.mp4 + cover
 ```
 
-Épisodes disponibles : `youtube`, `tradingview`, `propfirm` (EN + FR). Le reel de lancement
+Épisodes disponibles : `youtube`, `tradingview`, `propfirm` (EN + FR), et la série US en anglais :
+`sleep`, `emotions`, `claude`, `savedvideos`, `missedalert`, `oneday`. Le reel de lancement
 (« Claude just killed day traders ») : `REEL_LANG=fr node build.mjs && ./finalize.sh`.
 
 ## Organisation
