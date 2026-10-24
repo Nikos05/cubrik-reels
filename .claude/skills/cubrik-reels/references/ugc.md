@@ -49,3 +49,15 @@ Instagram "AI info" label on every post + a line in the bio.
 
 Alternative for B: generate one long avatar video of the whole script and treat it as a filmed take (case A),
 if the avatar tool supports clips that long.
+
+## Pauline (AI avatar, English, Instagram paulinee.ia)
+
+- Voice: Flora `Gacrux` (`en-US` / `fr-FR`), same acting prompt as Algenib but female. Raw lines in `assets/raw-<ep>-<lang>/`
+  (the older Algenib takes of tradingview/propfirm EN are kept in `assets/raw-<ep>-en-algenib/`).
+- Start image: Higgsfield job `83ba8e9f-b665-4b3e-9e79-aed50cdcd8e5` (square, waist-up, buttoned white shirt, orange wall).
+  Reuse it as `start_image` for every Wan 2.7 clip so she always looks the same.
+- Lesson: Higgsfield flags revealing photos as NSFW (outpaint and Wan both refuse). Crop to the face, then regenerate a
+  zoomed-out, brand-safe start image with `gpt_image_2_5` + the crop as reference ("same woman, keep face/glasses/hair").
+- Episodes wired for her: `launch` (fr + en, 6 split scenes), `nocode`, `tradingview`, `propfirm` (en, 5 split scenes).
+  Render: `./ugc-prep.sh assets/ugc/<ep>-<lang> 1.25` (fr: 1.28) then `UGC=1 ./produce.sh <ep> <lang>`.
+- TradingView / prop firm EN use "Comment X for early access" + end card "& get early access" (features not live yet).

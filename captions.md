@@ -641,3 +641,81 @@ Commente "CRYPTO" et je t'envoie le guide d'installation.
 Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
 
 #crypto #bitcoin #ethereum #binance #trading #claude #ia #tradingauto
+
+---
+
+# Pauline series (English, paulinee.ia — AI avatar, Gacrux voice)
+
+Split-screen: scene on top, Pauline (AI-generated avatar) talking at the bottom. Turn on Instagram's "AI info" label on every post.
+
+## P1. Claude just killed day traders — `cubrik-launch-en-ugc.mp4`
+
+Claude just killed day traders 🧡
+
+It's called cubrik. You connect it to Claude and run your trading agents just by talking to it.
+
+1. Link your broker in one message: Binance, MetaTrader, Interactive Brokers and more
+2. Build your agent from your own Claude skills, or from a YouTube strategy video (coming soon)
+3. It backtests on TradingView data, then the agent trades 24/7, even while you sleep
+
+Nothing goes live until you approve it.
+
+Comment "CLAUDE" and I'll send you the setup guide + the copy-paste prompts.
+
+Not financial advice. Past performance does not guarantee future results. Presenter is AI-generated.
+
+#claude #claudeai #trading #tradingbot #aiagents #daytrading #algotrading #automation
+
+## P2. No need to code — `cubrik-nocode-en-ugc.mp4`
+
+You don't need to code to have your own trading bot 🧡
+
+With cubrik connected to Claude, you describe your strategy in plain English and Claude turns it into an agent.
+
+1. Write your strategy the way you'd explain it to a friend
+2. Claude turns it into clear rules, or you start from a ready-made Claude skill
+3. It backtests it on TradingView data, then you link your broker
+
+Nothing goes live until you approve it.
+
+Comment "BOT" and I'll send you the setup guide.
+
+Not financial advice. Past performance does not guarantee future results. Presenter is AI-generated.
+
+#tradingbot #nocode #claude #aiagents #algotrading #trading #automation #claudeai
+
+## P3. TradingView — `cubrik-tradingview-en-ugc.mp4`
+
+Your TradingView alerts are about to place real trades 🧡
+
+Coming soon to cubrik: keep your indicators and Pine scripts, Claude and cubrik handle the execution.
+
+1. Ask Claude to hook your alerts to an agent: it gives you a webhook
+2. Paste it in your TradingView alert, your Pine script stays the same
+3. Every alert becomes an order on your broker, in seconds
+
+Your stops and daily loss limit apply to every trade. Nothing goes live until you approve it.
+
+Comment "TRADINGVIEW" and I'll send you early access as soon as it's live.
+
+Not financial advice. Past performance does not guarantee future results. Presenter is AI-generated.
+
+#tradingview #pinescript #algotrading #trading #automation #claude #aiagents #webhook
+
+## P4. Prop firm — `cubrik-propfirm-en-ugc.mp4`
+
+Most prop firm challenges fail for one reason: breaking a rule 🧡
+
+Coming soon to cubrik: a challenge mode that turns your prop firm rules into hard limits on every agent.
+
+1. Tell Claude which challenge you're on: daily loss, max drawdown, target
+2. cubrik tracks every limit live across all your agents
+3. If a trade would break a rule, it never gets placed
+
+Nothing goes live until you approve it.
+
+Comment "PROP" and I'll send you early access as soon as it's live.
+
+Not financial advice. Passing a challenge is never guaranteed. Presenter is AI-generated.
+
+#propfirm #fundedtrader #trading #forex #algotrading #automation #claude #aiagents

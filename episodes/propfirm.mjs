@@ -12,7 +12,7 @@ export default {
       "If a trade would break a rule, it never gets placed.",
       "Every agent is backtested against your challenge rules first.",
       "And nothing goes live without your OK.",
-      "Comment PROP, and I'll send you the setup.",
+      "Comment PROP for early access.",
     ],
     fr: [
       "La plupart des challenges prop firm échouent pour une seule raison : une règle cassée.",
@@ -26,6 +26,8 @@ export default {
     ],
   },
   trans: [null, "zoom", "whipL", "stripes", "whipU", "zoom", "whipL", "zoom"],
+  // Pauline (AI avatar) in the bottom half for the English version
+  ugc: process.env.REEL_UGC ? { en: { 2: "assets/ugc/propfirm-en/clip02.mp4", 3: "assets/ugc/propfirm-en/clip03.mp4", 4: "assets/ugc/propfirm-en/clip04.mp4", 5: "assets/ugc/propfirm-en/clip05.mp4", 7: "assets/ugc/propfirm-en/clip07.mp4" } } : null,
   scenes: () => [
     hookProp(1, { l1: "MOST CHALLENGES FAIL", l2: "FOR ONE REASON" }),
     connect(2),
@@ -37,7 +39,7 @@ export default {
       stats: [["WIN RATE", "58%"], ["MAX DRAWDOWN", "4.1%"], ["RULES BROKEN", "0", "pos"]],
     }),
     confirm(7, { l1: "NOTHING GOES LIVE", l2: "WITHOUT YOUR OK", title: "Start challenge mode?", line1: "Max daily loss 5% · Max drawdown 10%", line2: "Enforced on every agent" }),
-    endCard(8, { word: "PROP" }),
+    endCard(8, { word: "PROP", sub: process.env.REEL_LANG === "en" ? "&amp; get early access" : undefined }),
   ],
   coverCss: `#cv .propHookStage{top:-170px;transform:scale(.85);transform-origin:50% 50%}#cv .hero{top:690px;gap:14px}#cv .hl2,#cv .stamp{opacity:1}#cv .stamp{transform:rotate(-12deg)}#cv .phFill{transform:scaleX(.78)}`,
   fr: {

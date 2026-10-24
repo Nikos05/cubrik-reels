@@ -5,14 +5,14 @@ export default {
   id: "tradingview",
   vo: {
     en: [
-      "Your TradingView alerts can now place real trades.",
+      "Your TradingView alerts will soon place real trades.",
       "Connect cubrik to Claude.",
       "Ask Claude to hook your alerts to an agent. It gives you a webhook.",
       "Paste it in your alert. Your Pine script stays exactly the same.",
       "Now every alert becomes an order on your broker, in under a second.",
       "With your stops and your daily loss limit, on every single trade.",
       "Your strategy, finally on autopilot.",
-      "Comment TRADINGVIEW, and I'll send you the setup.",
+      "Comment TRADINGVIEW for early access.",
     ],
     fr: [
       "Tes alertes TradingView peuvent maintenant passer de vrais ordres.",
@@ -26,8 +26,10 @@ export default {
     ],
   },
   trans: [null, "zoom", "whipL", "stripes", "whipU", "zoom", "whipL", "zoom"],
+  // Pauline (AI avatar) in the bottom half for the English version
+  ugc: process.env.REEL_UGC ? { en: { 2: "assets/ugc/tradingview-en/clip02.mp4", 3: "assets/ugc/tradingview-en/clip03.mp4", 4: "assets/ugc/tradingview-en/clip04.mp4", 6: "assets/ugc/tradingview-en/clip06.mp4", 7: "assets/ugc/tradingview-en/clip07.mp4" } } : null,
   scenes: () => [
-    hookTV(1, { l1: "TRADINGVIEW ALERTS", l2: "NOW PLACE TRADES" }),
+    hookTV(1, { l1: "TRADINGVIEW ALERTS", l2: process.env.REEL_LANG === "en" ? "SOON PLACE TRADES" : "NOW PLACE TRADES" }),
     connect(2),
     tvWebhook(3, { l1: "ASK CLAUDE", l2: "FOR A WEBHOOK" }),
     tvAlert(4, { l1: "PASTE IT", l2: "IN YOUR ALERT" }),
@@ -37,7 +39,7 @@ export default {
       l1: "FINALLY", l2: "ON AUTOPILOT", title: "Gold RSI Strategy", sub: "TRIGGERED BY TRADINGVIEW · METATRADER 5",
       main: "✅ Order filled: XAU/USD Long", nsub: "From your TradingView alert · 0.8 s", pnl: "+2R", notif: 1.6,
     }),
-    endCard(8, { word: "TRADINGVIEW" }),
+    endCard(8, { word: "TRADINGVIEW", sub: process.env.REEL_LANG === "en" ? "&amp; get early access" : undefined }),
   ],
   coverCss: `#cv .tvWrap{top:-120px;transform:scale(.85);transform-origin:50% 0}#cv .hero{top:690px;gap:14px}#cv .hl2{opacity:1}#cv .tvAl{opacity:1}#cv .mTV{display:none}`,
   fr: {

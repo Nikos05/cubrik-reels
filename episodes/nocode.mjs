@@ -27,6 +27,8 @@ export default {
     ],
   },
   trans: [null, "zoom", "whipL", "stripes", "whipU", "zoom", "whipL", "zoom"],
+  // Pauline (AI avatar) in the bottom half for the English version
+  ugc: process.env.REEL_UGC ? { en: { 2: "assets/ugc/nocode-en/clip02.mp4", 3: "assets/ugc/nocode-en/clip03.mp4", 4: "assets/ugc/nocode-en/clip04.mp4", 6: "assets/ugc/nocode-en/clip06.mp4", 7: "assets/ugc/nocode-en/clip07.mp4" } } : null,
   scenes: () => [
     hookCode(1, { l1: "NO NEED TO", l2: "KNOW HOW TO CODE" }),
     connect(2),
