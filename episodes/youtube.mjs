@@ -1,0 +1,71 @@
+// Feature: paste a YouTube strategy video -> cubrik builds the agent, all from Claude.
+import { hookFeed, connect, ytCopy, chatAnalyze, clarify, backtest, confirm, endCard } from "../lib/scenes.mjs";
+
+export default {
+  id: "youtube",
+  vo: {
+    en: [
+      "Millions of people watch trading strategies on YouTube, and never apply them.",
+      "So I connected cubrik to Claude.",
+      "I copied the link of this gold strategy,",
+      "pasted it in Claude, and cubrik pulled out every rule.",
+      "It even asked me what the video forgot to say.",
+      "Then it backtested it on five years of data.",
+      "One tap, and an agent trades it for me.",
+      "Comment YOUTUBE, and I'll send you the setup.",
+    ],
+    fr: [
+      "Des millions de gens regardent des stratégies de trading sur YouTube, sans jamais les appliquer.",
+      "Alors j'ai connecté cubrik à Claude.",
+      "J'ai copié le lien de cette stratégie sur l'or,",
+      "je l'ai collé dans Claude, et cubrik en a extrait chaque règle.",
+      "Il m'a même posé les questions que la vidéo avait oubliées.",
+      "Puis il l'a backtestée sur cinq ans de données.",
+      "Un tap, et un agent la trade pour moi.",
+      "Commente YOUTUBE, et je t'envoie le setup.",
+    ],
+  },
+  trans: [null, "zoom", "whipL", "stripes", "whipU", "zoom", "whipL", "zoom"],
+  // talking UGC clips (bottom half) per scene number; scenes without one stay full screen
+  ugc: process.env.REEL_UGC ? {
+    fr: { 2: "assets/ugc/yt-fr/clip02.mp4", 3: "assets/ugc/yt-fr/clip03.mp4", 4: "assets/ugc/yt-fr/clip04.mp4", 5: "assets/ugc/yt-fr/clip05.mp4", 7: "assets/ugc/yt-fr/clip07.mp4" },
+  } : null,
+  scenes: () => [
+    hookFeed(1, { l1: "MILLIONS WATCH", l2: "NOBODY APPLIES" }),
+    connect(2),
+    ytCopy(3, { l1: "COPY ANY", l2: "STRATEGY VIDEO" }),
+    chatAnalyze(4, { l1: "PASTE IT", l2: "IN CLAUDE" }),
+    clarify(5, { l1: "IT ASKS WHAT", l2: "THE VIDEO MISSED" }),
+    backtest(6, { l1: "BACKTESTED", l2: "ON 5 YEARS" }),
+    confirm(7, { l1: "ONE TAP", l2: "AND IT'S LIVE" }),
+    endCard(8, { word: "YOUTUBE" }),
+  ],
+  coverCss: `#cv .feed{top:-60px;transform:scale(.8);transform-origin:50% 0}#cv .hero{top:690px;gap:14px}#cv .hl1,#cv .hl2{opacity:1}#cv .mFeed{display:none}`,
+  fr: {
+    "MILLIONS WATCH": "DES MILLIONS REGARDENT", "NOBODY APPLIES": "PERSONNE N'APPLIQUE",
+    "SAVED · NEVER USED": "JAMAIS UTILISÉE",
+    "COPY ANY": "COPIE N'IMPORTE QUELLE", "STRATEGY VIDEO": "VIDÉO DE STRATÉGIE",
+    "PASTE IT": "COLLE-LA", "IN CLAUDE": "DANS CLAUDE",
+    "IT ASKS WHAT": "IL POSE LES QUESTIONS", "THE VIDEO MISSED": "QUE LA VIDÉO OUBLIE",
+    "BACKTESTED": "BACKTESTÉE", "ON 5 YEARS": "SUR 5 ANS",
+    "ONE TAP": "UN TAP", "AND IT'S LIVE": "ET C'EST LIVE",
+    "The video skips 3 things. Quick check:": "La vidéo oublie 3 choses. Vite fait :",
+    "Which session?": "Quelle session ?", "London": "Londres", "New York": "New York", "Both": "Les deux",
+    "Max trades per day?": "Trades max par jour ?", "News days?": "Jours d'annonces ?", "Trade": "Trader", "Skip": "Éviter",
+    "Strategy complete · 7 rules": "Stratégie complète · 7 règles",
+    // ported strings
+    "My 1H Gold Strategy That Actually Works": "Ma stratégie Gold 1H qui marche vraiment",
+    "@MaxTradesFX · 1.2M views": "@MaxTradesFX · 1,2 M de vues",
+    "👍 48K": "👍 48 k", "↗ Share": "↗ Partager", "🔗 Copy link": "🔗 Copier le lien", "✓ Copied": "✓ Copié", "✓ Link copied": "✓ Lien copié",
+    "cubrik is watching the video…": "cubrik regarde la vidéo…", "✓ Video analyzed · 14:32": "✓ Vidéo analysée · 14:32",
+    "✓ Transcript": "✓ Transcription", "✓ Chart patterns": "✓ Patterns", "✓ Rules": "✓ Règles",
+    "MARKET": "MARCHÉ", "ENTRY": "ENTRÉE", "EXIT": "SORTIE", "RISK": "RISQUE",
+    "XAU/USD · 1 hour": "XAU/USD · 1 heure", "RSI < 30 + bullish engulfing": "RSI < 30 + englobante haussière",
+    "Take profit 2R · stop below low": "TP 2R · stop sous le plus bas", "1% per trade": "1 % par trade",
+    "5 YEARS · FEES INCLUDED": "5 ANS · FRAIS INCLUS", "DATA VIA": "DONNÉES VIA",
+    "WIN RATE": "RÉUSSITE", "PROFIT FACTOR": "PROFIT FACTOR", "NET PROFIT": "PROFIT NET", "61%": "61 %", "1.8": "1,8", "+38.4%": "+38,4 %",
+    "Launch on MetaTrader?": "Lancer sur MetaTrader ?", "Real money · 1% risk per trade": "Argent réel · 1 % de risque par trade",
+    "Stop loss always on": "Stop loss toujours actif",
+  },
+  cssFr: `.qo{font-size:26px;padding:10px 20px}`,
+};

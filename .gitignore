@@ -1,0 +1,23 @@
+# generated
+index.html
+cover/index.html
+cover/assets/
+renders/
+snaps*/
+.hyperframes/
+transcript.json
+node_modules/
+.DS_Store
+
+# generated voice (rebuilt by produce.sh from assets/raw-*) + old takes
+assets/vo-*/
+!assets/vo-fr/
+assets/sfx-old/
+voice-samples/
+build.v*.mjs
+
+# AI avatar / UGC experiments stay out of the kit
+assets/ugc/
+ugc-prep.sh
+.media/
+.thumbnails/
