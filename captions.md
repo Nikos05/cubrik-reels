@@ -159,3 +159,115 @@ Comment "PROP" and I'll send you early access as soon as it's live.
 Not financial advice. Passing a challenge is never guaranteed.
 
 #propfirm #fundedtrader #trading #forex #algotrading #automation #claude #aiagents
+
+---
+
+# US series (English only, paulitoo.ai)
+
+## 5. Morning notifications — `cubrik-sleep-en.mp4`
+
+My phone every morning now 🧡
+
+cubrik connects to Claude and runs a trading agent for you, around the clock.
+
+1. Link your broker in one message: Binance, MetaTrader, Hyperliquid
+2. Pick a strategy from your Claude skills
+3. It backtests on TradingView data, then trades it while you sleep
+
+Nothing goes live until you approve it.
+
+Comment "AGENT" and I'll send you the setup guide.
+
+Not financial advice. Past performance does not guarantee future results.
+
+#claude #claudeai #tradingbot #aiagents #algotrading #daytrading #automation
+
+## 6. Emotions — `cubrik-emotions-en.mp4`
+
+It's not your strategy. It's your emotions 🧡
+
+cubrik connects to Claude so an AI agent executes your plan exactly as written: no revenge trades, no FOMO.
+
+1. Pick your strategy from Claude skills
+2. Write your rules once: stop loss on every trade, max loss per day
+3. It backtests everything before a single dollar is at risk
+
+Nothing goes live until you approve it.
+
+Comment "RULES" and I'll send you the setup guide.
+
+Not financial advice. Past performance does not guarantee future results.
+
+#tradingpsychology #trading #daytrading #claude #aiagents #algotrading #riskmanagement #discipline
+
+## 7. Claude can trade for you — `cubrik-claude-en.mp4`
+
+Claude can now run a trading agent for you 🧡
+
+Here's the whole setup with cubrik, step by step, all from a Claude chat.
+
+1. Connect cubrik to Claude, then link your broker
+2. Pick a strategy or bring your own skill
+3. Backtest it on TradingView data and approve it with one tap
+
+Nothing goes live until you approve it.
+
+Comment "CLAUDE" and I'll send you the setup guide.
+
+Not financial advice. Past performance does not guarantee future results.
+
+#claude #claudeai #anthropic #aiagents #tradingbot #algotrading #ai #trading
+
+## 8. Saved videos — `cubrik-savedvideos-en.mp4`
+
+That strategy video you saved? It's about to trade for you 🧡
+
+Coming soon to cubrik: paste a YouTube link in Claude and it becomes a trading agent.
+
+1. Copy the link of any strategy video
+2. Paste it in Claude: cubrik turns it into clear rules and fills the gaps
+3. It backtests it before risking a dollar, then an agent trades it
+
+Nothing goes live until you approve it.
+
+Comment "VIDEO" and I'll send you early access as soon as it's live.
+
+Not financial advice. Past performance does not guarantee future results.
+
+#tradingstrategy #youtube #claude #aiagents #algotrading #forex #gold #tradingbot
+
+## 9. Missed alert — `cubrik-missedalert-en.mp4`
+
+You missed the alert. Again 🧡
+
+Coming soon to cubrik: your TradingView alerts become real orders, set up from Claude.
+
+1. Ask Claude for a webhook
+2. Paste it in your alert, your Pine script doesn't change
+3. Every alert becomes an order in seconds, with your stops and daily limits
+
+Nothing goes live until you approve it.
+
+Comment "ALERTS" and I'll send you early access as soon as it's live.
+
+Not financial advice. Past performance does not guarantee future results.
+
+#tradingview #pinescript #trading #claude #aiagents #algotrading #automation #daytrading
+
+## 10. One bad day — `cubrik-oneday-en.mp4`
+
+One bad day and the challenge is gone 🧡
+
+Coming soon to cubrik: prop firm mode, set up from Claude, enforcing your challenge rules on every agent.
+
+1. Tell Claude your challenge rules in one message
+2. Every limit is tracked live
+3. Any trade that would break a rule never gets placed
+
+Nothing goes live until you approve it.
+
+Comment "CHALLENGE" and I'll send you early access as soon as it's live.
+
+Not financial advice. Past performance does not guarantee future results. Not affiliated with any prop firm.
+
+#propfirm #fundedtrader #proptrading #trading #claude #aiagents #riskmanagement #daytrading

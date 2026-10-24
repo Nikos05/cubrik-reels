@@ -55,7 +55,7 @@ export default {
     "Order placed": "Ordre passé", "set": "posés",
     "YOUR RULES": "TES RÈGLES", "ON EVERY TRADE": "SUR CHAQUE TRADE", "Guardrails": "Garde-fous",
     "Stop loss on every order": "Stop loss sur chaque ordre", "Max loss per day": "Perte max par jour", "One position per asset": "Une position par actif",
-    "STOPS SIT ON YOUR BROKER · WORK EVEN IF CUBRIK IS OFFLINE": "STOPS CHEZ TON BROKER · ACTIFS MÊME SI CUBRIK EST HORS LIGNE",
+    "STOPS SIT ON YOUR BROKER · ALWAYS ON": "STOPS CHEZ TON BROKER · TOUJOURS ACTIFS",
     "ON": "ON", "−3%": "−3 %",
     "FINALLY": "ENFIN", "ON AUTOPILOT": "EN PILOTE AUTO", "Gold RSI Strategy": "Stratégie Gold RSI",
     "TRIGGERED BY TRADINGVIEW · METATRADER 5": "DÉCLENCHÉE PAR TRADINGVIEW · METATRADER 5", "you're asleep": "tu dors",
