@@ -1,6 +1,6 @@
 ---
 name: cubrik-reels
-description: Produce cubrik.ai Instagram/TikTok Reels (9:16) in the house style — paper background, pixel cube mascot, Claude chat cards, mono labels, velocity-matched transitions — always framed as "connect cubrik to Claude and run everything from Claude". Use whenever someone asks for a cubrik reel, a new feature video, a new hook, an FR/EN version, captions for a cubrik reel, or scheduling cubrik reels on Ravenpost.
+description: Produce cubrik.ai Instagram/TikTok Reels (9:16) in the house style — paper background, pixel cube mascot, Claude chat cards, mono labels, velocity-matched transitions — always framed as "connect cubrik to Claude and run everything from Claude". Use whenever someone asks for a cubrik reel, a new feature video, a new hook, an FR/EN version, a split-screen version with their own filmed take or an AI avatar, captions for a cubrik reel, or scheduling cubrik reels on Ravenpost.
 ---
 
 # cubrik reels
@@ -10,7 +10,8 @@ This repo is a video factory. Every reel is an **episode file** (`episodes/<id>.
 Never hand-edit `index.html` — it is generated. Change the episode, the library or the engine.
 
 Read `references/style.md` before writing anything visual, `references/scenes.md` before picking scenes,
-`references/voice.md` before generating audio, `references/captions.md` before writing a caption.
+`references/voice.md` before generating audio, `references/captions.md` before writing a caption,
+and `references/ugc.md` whenever a person should appear (an employee's filmed take or an AI avatar).
 
 ## Non-negotiable rules
 
@@ -23,7 +24,8 @@ Read `references/style.md` before writing anything visual, `references/scenes.md
    end card `Comment "WORD"`. One voice line per scene, cut on every line, no dead air.
 4. **Compliance:** no profit promises; demo numbers only; "Not financial advice" in every caption;
    unreleased features say **"coming soon / bientôt"** and the CTA promises early access, not a setup guide;
-   full-motion only — no AI avatar / talking-human footage, no real person animated; never imply
+   a person on screen (UGC) only with their consent, an AI avatar always disclosed (Instagram "AI info" + bio),
+   never a real person's photo animated without consent; never imply
    Anthropic endorses cubrik ("cubrik works with Claude", never "partner/official").
 5. **Never publish without the owner's explicit OK.** Ravenpost: create **drafts**; schedule only when asked.
 
@@ -44,6 +46,7 @@ Read `references/style.md` before writing anything visual, `references/scenes.md
 5. **Look at it.** `npx hyperframes snapshot --at <t1>,<t2>,… -o snaps` at the late moment of each scene, and
    read the contact sheet. Fix overflow (long FR strings!), overlaps and empty frames, then re-run produce.
    `check` warnings about the fanned hook cards are expected; anything else gets fixed.
+   Someone filmed themselves, or wants an AI avatar? Follow `references/ugc.md` instead of step 3–4.
 6. **Caption** with `references/captions.md`.
 7. **Ravenpost** (if asked): upload with `create_media_upload` + `curl PUT` + `attach_media`, then
    `create_post` with `type: "REEL"`, `action: "draft"`, `reelCover: {offsetMs: 1700}`. Schedule only on request.
@@ -52,6 +55,8 @@ Read `references/style.md` before writing anything visual, `references/scenes.md
 
 ```bash
 ./produce.sh youtube en          # one finished reel
+node take-prep.mjs youtube fr me.mp4 && REEL_TAKE=assets/takes/youtube-fr ./produce.sh youtube fr   # with a filmed take
+UGC=1 ./produce.sh youtube fr    # with AI-avatar clips (references/ugc.md)
 REEL_LANG=fr node make.mjs youtube && npx hyperframes@0.8.191 preview   # live preview while editing
 npx hyperframes@0.8.191 snapshot --at 2,6,10 -o snaps                   # frames to review
 ```

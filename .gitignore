@@ -16,8 +16,8 @@ assets/sfx-old/
 voice-samples/
 build.v*.mjs
 
-# AI avatar / UGC experiments stay out of the kit
+# people's footage stays out of git (filmed takes, AI avatar clips)
+assets/takes/
 assets/ugc/
-ugc-prep.sh
 .media/
 .thumbnails/
