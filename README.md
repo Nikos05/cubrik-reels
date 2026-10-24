@@ -13,6 +13,13 @@ cartes de chat Claude, labels mono, transitions rapides. Toujours le même messa
 Le script installe Node (via nvm, sans sudo), ffmpeg/ffprobe, les skills HyperFrames, et affiche les deux
 connexions à faire dans Claude Code : **Flora** (voix) et, si tu publies, **Ravenpost**.
 
+## Le savoir dans le repo
+
+- `.claude/skills/cubrik-reels/references/product.md` : tout ce que cubrik fait (brokers, IA, prix, sécurité), source cubrik.ai
+- `references/audiences.md` : 18 cibles (débutant, expert, déjà perdu, rentable, pressé, petit budget, 18-24, 50+, crypto, MetaTrader…), angles et banque de hooks FR/EN
+- `references/voice.md` : voix Algenib (homme) et Gacrux (femme), réglages et pièges de prononciation
+- `references/scenes.md` : toutes les scènes disponibles
+
 ## Faire une vidéo
 
 Ouvre Claude Code dans ce dossier et demande simplement, par exemple :
@@ -29,7 +36,9 @@ choisit les scènes, génère la voix Algenib dans Flora, vérifie chaque prise,
 ```
 
 Épisodes disponibles : `youtube`, `tradingview`, `propfirm` (EN + FR), et la série en 6 épisodes (EN + FR) :
-`sleep`, `emotions`, `claude`, `savedvideos`, `missedalert`, `oneday`, plus `nocode` et `vsia` (FR). Le reel de lancement
+`sleep`, `emotions`, `claude`, `savedvideos`, `missedalert`, `oneday`, plus `nocode` et `vsia` (FR), et 12 reels personas (FR, EN prêts à générer) :
+`expert`, `profitable`, `busy`, `safety`, `metatrader`, `skeptic`, `brokers` (voix Algenib) et
+`beginner`, `lostmoney`, `smallbudget`, `genz`, `crypto` (voix Gacrux). Le reel de lancement
 (« Claude just killed day traders ») : `REEL_LANG=fr node build.mjs && ./finalize.sh`.
 
 ## Avec une personne à l'écran (UGC)

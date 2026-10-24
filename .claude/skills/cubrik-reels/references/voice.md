@@ -1,6 +1,11 @@
-# Voice (Flora → Gemini TTS, voice "Algenib")
+# Voice (Flora → Gemini TTS)
 
-The house voice is **Algenib** for both English and French: deep, warm, calm, trustworthy man.
+Two house voices, same register (calm, warm, trustworthy, controlled emotion):
+- **Algenib** — male, default (`voice: "Algenib"` in the episode).
+- **Gacrux** — female, chosen by the team on 2026-10-24 after testing Sulafat, Gacrux, Kore, Despina
+  (`voice: "Gacrux"`). Use it for empathy-led personas (lost money, beginners, small budget, 18–24, crypto)
+  and to alternate on the feed. Prompt: replace "a French man in his thirties with a deep, warm, grounded voice"
+  by **"a French woman in her thirties with a warm, grounded, slightly low voice"**, rest identical.
 
 Flora call (`flora_create_generations`), one generation per line:
 - model: `t2a-gemini-3-1-flash-tts`
@@ -11,6 +16,14 @@ Flora call (`flora_create_generations`), one generation per line:
 > trustworthy, controlled excitement and real emotion. Steady natural pace, no long pauses: <LINE>
 
 Write "cubrik" in the line; if the model says "Qubric/Cubric" badly, retry once before rewording.
+
+Known pronunciation traps (seen in QA, fix by rewording rather than instructing):
+- "Avec cubrik connecté à Claude" → often "QRIC … Cloud". Use "Tu connectes cubrik à Claude" / "Connecte cubrik à Claude".
+- "trading IA" → heard as "trading I". Say "trading avec une IA".
+- CTA words in capitals get spelled out ("B-O-T"): write them lowercase in the spoken line ("Commente bot").
+- "skills Claude" → "skills Cloud": say "les skills de Claude".
+- Batch at most 20 generations per call; download URL is predictable:
+  `https://media.flora.ai/node-inputs/<date>/<workspace-folder>/gen-<run id without run_>-0.wav`.
 
 ## Save + QA
 1. Download each result to `assets/raw-<episode>-<lang>/vo01.wav … vo08.wav` (order = scene order).

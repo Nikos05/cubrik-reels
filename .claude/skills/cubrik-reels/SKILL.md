@@ -9,7 +9,8 @@ This repo is a video factory. Every reel is an **episode file** (`episodes/<id>.
 **scene library** (`lib/scenes.mjs`) by a shared **engine** (`lib/core.mjs`), rendered with HyperFrames.
 Never hand-edit `index.html` — it is generated. Change the episode, the library or the engine.
 
-Read `references/style.md` before writing anything visual, `references/scenes.md` before picking scenes,
+Read `references/product.md` (facts, brokers, pricing — the only claims allowed) and `references/audiences.md`
+(personas, angles, hook bank) before writing a script, `references/style.md` before writing anything visual, `references/scenes.md` before picking scenes,
 `references/voice.md` before generating audio, `references/captions.md` before writing a caption,
 and `references/ugc.md` whenever a person should appear (an employee's filmed take or an AI avatar).
 
@@ -31,7 +32,7 @@ and `references/ugc.md` whenever a person should appear (an employee's filmed ta
 
 ## Workflow for a new reel
 
-1. **Brief → script.** Ask (or infer) the feature, the language(s) and the CTA word. Write 8 lines, short and
+1. **Brief → script.** Pick the persona + angle from `audiences.md`, then the feature, language(s), voice and CTA word. Write 8 lines, short and
    spoken (one idea each, 4–14 words). Hook formulas that work: "X just killed Y", "Millions of people
    watch X and never Y", "Your X can now do Y", "Most X fail for one reason: Y".
 2. **Pick scenes** from `references/scenes.md`. Add a new factory to `lib/scenes.mjs` (+ CSS in

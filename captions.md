@@ -419,3 +419,225 @@ Commente "IA" et je t'envoie le guide d'installation.
 Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
 
 #tradingia #trading #daytrading #claude #ia #tradingauto #psychologietrading #agentia
+
+---
+
+# Série personas (FR · TikTok Paulito AI) — voir `.claude/skills/cubrik-reels/references/audiences.md`
+
+Même structure : accroche, une phrase, 3 étapes, sécurité, CTA, mention légale, hashtags.
+
+## 13. Expert — `cubrik-expert-fr.mp4` (Algenib)
+
+Tu trades depuis 5 ans et tu es encore devant l'écran la nuit ? 🧡
+
+Ton edge est bon. Avec cubrik connecté à Claude, un agent l'exécute exactement comme tu l'as écrit, sur tous tes brokers.
+
+1. Décris ta stratégie avec tes vraies règles
+2. Backteste-la sur 5 ans, frais et slippage inclus
+3. L'analyse te montre où part l'argent, session par session
+
+Rien ne passe en live sans ton accord.
+
+Commente "EXPERT" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#trading #daytrading #forex #gold #claude #ia #algotrading #tradingauto
+
+## 14. Déjà rentable — `cubrik-profitable-fr.mp4` (Algenib)
+
+Tu gagnes déjà ? Alors lâche l'écran 🧡
+
+Même stratégie, plus de marchés, sans rester collé aux bougies : cubrik connecté à Claude la fait tourner pour toi.
+
+1. Donne ta stratégie exactement comme tu la trades
+2. Teste-la sur des années de données
+3. Fais-la tourner sur plusieurs comptes, avec une analyse chaque semaine
+
+Rien ne passe en live sans ton accord.
+
+Commente "SCALE" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#trading #tradingauto #claude #ia #agentia #forex #crypto #liberte
+
+## 15. Pas le temps — `cubrik-busy-fr.mp4` (Algenib)
+
+Pas le temps de trader ? Ton agent, si 🧡
+
+Deux minutes depuis Claude : tu copies une stratégie avec son backtest, tu relies ton broker, tu valides.
+
+1. Copie une stratégie partagée, avec son backtest
+2. Relie ton broker en 30 secondes
+3. Reçois une notification à chaque trade
+
+Ton argent ne quitte jamais ton broker : accès trading seulement, aucun retrait possible.
+
+Commente "TEMPS" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#entrepreneur #trading #claude #ia #tradingauto #gestiondutemps #investissement #agentia
+
+## 16. Sécurité (50+) — `cubrik-safety-fr.mp4` (Algenib)
+
+Ton argent ne bouge pas. Jamais 🧡
+
+cubrik se connecte à ton broker avec un accès trading seulement : aucun droit de retrait, révocable en un tap.
+
+1. Trois sécurités indépendantes : perte max par jour, alerte de risque horaire, stops chez le broker
+2. Tu testes d'abord sur le passé, puis sur un compte démo gratuit
+3. Tes stops restent chez ton broker, même si cubrik est hors ligne
+
+Rien ne passe en live sans ton accord.
+
+Commente "SÉCURITÉ" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#securite #trading #claude #ia #tradingauto #broker #epargne #investissement
+
+## 17. MetaTrader — `cubrik-metatrader-fr.mp4` (Algenib)
+
+Ton EA a encore planté cette nuit ? 🧡
+
+Avec cubrik connecté à Claude, tu décris ta stratégie, sans une ligne de MQL, et elle tourne sur MetaTrader 4 ou 5.
+
+1. Relie ton compte MetaTrader en 30 secondes
+2. Décris ta stratégie et backteste-la
+3. Les stops sont posés sur le serveur du broker
+
+Rien ne passe en live sans ton accord.
+
+Commente "MT5" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#metatrader #mt5 #mt4 #forex #gold #expertadvisor #claude #tradingauto
+
+## 18. Sceptique — `cubrik-skeptic-fr.mp4` (Algenib)
+
+Une IA qui trade ? Je n'y croyais pas non plus 🧡
+
+L'IA ne supprime pas le risque. Elle supprime tes erreurs : le stop élargi, la taille doublée, le trade de 23 h.
+
+1. Donne tes règles à cubrik depuis Claude
+2. Teste-les sur des années de données, puis en démo gratuite
+3. L'agent applique le plan et t'explique chaque décision
+
+Rien ne passe en live sans ton accord.
+
+Commente "PREUVE" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#ia #trading #psychologietrading #claude #tradingauto #discipline #agentia #daytrading
+
+## 19. Brokers — `cubrik-brokers-fr.mp4` (Algenib)
+
+Ton broker est sûrement compatible 🧡
+
+cubrik se connecte à Claude et à 10 brokers : MetaTrader 4 et 5, Binance, OKX, Bitget, Kraken, Coinbase, eToro, Interactive Brokers, Robinhood, MoonX.
+
+1. Connecte ton broker en 30 secondes
+2. Accès trading seulement, aucun droit de retrait
+3. Décris ta stratégie, backteste-la, valide-la en un tap
+
+Rien ne passe en live sans ton accord.
+
+Commente "BROKER" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#binance #metatrader #etoro #coinbase #interactivebrokers #trading #claude #tradingauto
+
+## 20. Débutant — `cubrik-beginner-fr.mp4` (Gacrux)
+
+Tu n'y connais rien ? Parfait 🧡
+
+Avec cubrik connecté à Claude, tu écris ce que tu veux avec tes mots, et il te pose les bonnes questions.
+
+1. Écris ta stratégie simplement, ou copie une stratégie déjà testée
+2. Vois comment elle aurait marché, avant de risquer un euro
+3. Commence sur un compte démo gratuit
+
+Rien ne passe en live sans ton accord.
+
+Commente "DÉBUTANT" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#debutant #trading #apprendreatrader #claude #ia #tradingauto #bitcoin #investir
+
+## 21. Déjà perdu — `cubrik-lostmoney-fr.mp4` (Gacrux)
+
+Tu as déjà perdu de l'argent en trading ? Moi aussi 🧡
+
+Ce n'était pas le marché. C'était le stop élargi, la taille doublée, le trade de 23 h. Avec cubrik connecté à Claude, mes règles décident.
+
+1. Écris tes règles une fois
+2. Stop sur chaque trade, perte max par jour, sans exception
+3. Backtest puis démo avant le réel
+
+Rien ne passe en live sans ton accord.
+
+Commente "RÈGLES" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#trading #psychologietrading #gestiondurisque #claude #ia #tradingauto #discipline #daytrading
+
+## 22. Petit budget — `cubrik-smallbudget-fr.mp4` (Gacrux)
+
+On t'a dit que le trading, c'était pour les riches ? 🧡
+
+Avec cubrik connecté à Claude, tu peux tout tester gratuitement avant de mettre un seul euro.
+
+1. Le plan démo est gratuit, sans carte
+2. Prends une stratégie partagée avec son backtest
+3. Teste-la en démo ; le jour où tu passes en réel, tes limites sont déjà posées
+
+Rien ne passe en live sans ton accord.
+
+Commente "DÉMO" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#etudiant #trading #apprendre #claude #ia #tradingauto #budget #demo
+
+## 23. 18–24 ans — `cubrik-genz-fr.mp4` (Gacrux)
+
+Arrête de copier les stratégies TikTok. Teste-les d'abord 🧡
+
+Décris la stratégie que tu as vue à Claude : cubrik la backteste sur 5 ans, et tu vois tout de suite si elle tient.
+
+1. Décris la stratégie
+2. Backtest sur 5 ans, ou compare avec 13 353 stratégies partagées
+3. Démo d'abord, et si elle tient, un agent l'applique
+
+Rien ne passe en live sans ton accord.
+
+Commente "TEST" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#tradingtiktok #trading #backtest #claude #ia #tradingauto #crypto #gold
+
+## 24. Crypto — `cubrik-crypto-fr.mp4` (Gacrux)
+
+La crypto ne dort jamais. Toi, tu devrais 🧡
+
+cubrik connecté à Claude fait tourner ta stratégie crypto 24h/24 sur Binance, OKX, Bitget, Kraken ou Coinbase.
+
+1. Relie ton exchange en 30 secondes
+2. Décris ta stratégie, sur autant de paires que tu veux
+3. Backtest d'abord, perte max par jour et stops chez l'exchange
+
+Rien ne passe en live sans ton accord.
+
+Commente "CRYPTO" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#crypto #bitcoin #ethereum #binance #trading #claude #ia #tradingauto
