@@ -14,6 +14,16 @@ export default {
       "And your agent trades it around the clock.",
       "Comment CLAUDE, and I'll send you the setup.",
     ],
+    fr: [
+      "Claude peut maintenant gérer un agent de trading pour toi. Voilà comment.",
+      "D'abord, connecte cubrik à Claude.",
+      "Ensuite, relie ton broker. Binance, MetaTrader ou Hyperliquid.",
+      "Choisis une stratégie, ou apporte ton propre skill.",
+      "Claude la backteste sur des années de données TradingView.",
+      "Tu la valides en un tap.",
+      "Et ton agent la trade jour et nuit.",
+      "Commente CLAUDE, et je t'envoie le setup.",
+    ],
   },
   trans: [null, "zoom", "stripes", "whipL", "whipU", "zoom", "whipL", "zoom"],
   scenes: () => [
@@ -27,5 +37,5 @@ export default {
     endCard(8, { word: "CLAUDE" }),
   ],
   coverCss: `#cv .hcStage{top:30px;transform:scale(.8);transform-origin:50% 0}#cv .hero{top:690px;gap:14px}#cv .hl1,#cv .hl2,#cv .uBubble,#cv .reply,#cv .hcL{opacity:1}#cv .ch{display:inline!important}#cv .cursor{display:none}`,
-  fr: {},
+  fr: {"CLAUDE CAN NOW": "CLAUDE PEUT MAINTENANT", "TRADE FOR YOU": "TRADER POUR TOI", "STEP 1": "ÉTAPE 1", "STEP 2": "ÉTAPE 2", "STEP 3": "ÉTAPE 3", "STEP 4": "ÉTAPE 4", "STEP 5": "ÉTAPE 5", "LINK YOUR BROKER": "RELIE TON BROKER", "PICK A STRATEGY": "CHOISIS UNE STRATÉGIE", "BACKTEST IT": "BACKTESTE-LA", "APPROVE IT": "VALIDE-LA", "THEN IT RUNS": "ET ÇA TOURNE", "24/7": "24H/24", "✅ Take profit hit · +2R": "✅ Take profit touché · +2R", "Gold RSI Scalper closed XAU/USD": "Gold RSI Scalper a clôturé XAU/USD"},
 };

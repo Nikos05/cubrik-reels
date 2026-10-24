@@ -271,3 +271,115 @@ Comment "CHALLENGE" and I'll send you early access as soon as it's live.
 Not financial advice. Past performance does not guarantee future results. Not affiliated with any prop firm.
 
 #propfirm #fundedtrader #proptrading #trading #claude #aiagents #riskmanagement #daytrading
+
+---
+
+# Série TikTok en français (Paulito AI)
+
+## 5. Notifications du matin — `cubrik-sleep-fr.mp4`
+
+Mon téléphone chaque matin maintenant 🧡
+
+cubrik se connecte à Claude et fait tourner un agent de trading pour toi, jour et nuit.
+
+1. Connecte ton broker en un message : Binance, MetaTrader, Hyperliquid
+2. Choisis une stratégie dans tes skills Claude
+3. Il la backteste sur les données TradingView, puis la trade pendant que tu dors
+
+Rien ne passe en live sans ton accord.
+
+Commente "AGENT" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#claude #claudeai #tradingbot #ia #agentia #tradingauto #daytrading #trading
+
+## 6. Émotions — `cubrik-emotions-fr.mp4`
+
+Ce n'est pas ta stratégie. Ce sont tes émotions 🧡
+
+cubrik se connecte à Claude pour qu'un agent IA exécute ton plan exactement comme tu l'as écrit : pas de revenge trading, pas de FOMO.
+
+1. Choisis ta stratégie dans les skills Claude
+2. Écris tes règles une fois : stop loss sur chaque trade, perte max par jour
+3. Tout est backtesté avant de risquer le moindre euro
+
+Rien ne passe en live sans ton accord.
+
+Commente "RÈGLES" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#psychologietrading #trading #daytrading #claude #ia #tradingauto #gestiondurisque #discipline
+
+## 7. Claude trade pour toi — `cubrik-claude-fr.mp4`
+
+Claude peut maintenant gérer un agent de trading pour toi 🧡
+
+Toute la mise en place avec cubrik, étape par étape, depuis une conversation Claude.
+
+1. Connecte cubrik à Claude, puis relie ton broker
+2. Choisis une stratégie ou apporte ton propre skill
+3. Backteste-la sur les données TradingView et valide-la en un tap
+
+Rien ne passe en live sans ton accord.
+
+Commente "CLAUDE" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#claude #claudeai #anthropic #ia #agentia #tradingbot #tradingauto #trading
+
+## 8. Vidéos enregistrées — `cubrik-savedvideos-fr.mp4`
+
+Cette vidéo de stratégie que tu as enregistrée ? Elle va bientôt trader pour toi 🧡
+
+Bientôt sur cubrik : colle un lien YouTube dans Claude et il devient un agent de trading.
+
+1. Copie le lien de n'importe quelle vidéo de stratégie
+2. Colle-le dans Claude : cubrik en fait des règles claires et comble les trous
+3. Il la backteste avant de risquer le moindre euro, puis un agent la trade
+
+Rien ne passe en live sans ton accord.
+
+Commente "VIDÉO" et je t'envoie l'accès en avant-première dès que c'est en ligne.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#strategietrading #youtube #claude #ia #tradingauto #forex #gold #tradingbot
+
+## 9. Alerte ratée — `cubrik-missedalert-fr.mp4`
+
+Tu as raté l'alerte. Encore 🧡
+
+Bientôt sur cubrik : tes alertes TradingView deviennent de vrais ordres, configurés depuis Claude.
+
+1. Demande un webhook à Claude
+2. Colle-le dans ton alerte, ton script Pine ne change pas
+3. Chaque alerte devient un ordre en quelques secondes, avec tes stops et tes limites du jour
+
+Rien ne passe en live sans ton accord.
+
+Commente "ALERTES" et je t'envoie l'accès en avant-première dès que c'est en ligne.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#tradingview #pinescript #trading #claude #ia #tradingauto #algotrading #daytrading
+
+## 10. Une mauvaise journée — `cubrik-oneday-fr.mp4`
+
+Une mauvaise journée et le challenge part en fumée 🧡
+
+Bientôt sur cubrik : le mode prop firm, configuré depuis Claude, qui applique les règles de ton challenge à chaque agent.
+
+1. Donne tes règles de challenge à Claude en un message
+2. Chaque limite est suivie en direct
+3. Un trade qui casserait une règle n'est jamais passé
+
+Rien ne passe en live sans ton accord.
+
+Commente "CHALLENGE" et je t'envoie l'accès en avant-première dès que c'est en ligne.
+
+Pas un conseil financier. Réussir un challenge n'est jamais garanti. Aucun lien avec une prop firm.
+
+#propfirm #fundedtrader #challenge #trading #claude #ia #gestiondurisque #daytrading

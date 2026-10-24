@@ -14,6 +14,16 @@ export default {
       "Now it watches the market all night, so I don't have to.",
       "Comment AGENT, and I'll send you the setup.",
     ],
+    fr: [
+      "Voilà à quoi ressemble mon téléphone chaque matin maintenant.",
+      "J'ai connecté cubrik à Claude.",
+      "J'ai relié mon broker en un message.",
+      "J'ai choisi une stratégie direct dans mes skills Claude.",
+      "Il l'a d'abord backtestée sur les données TradingView.",
+      "Je l'ai validée en un tap.",
+      "Maintenant, il surveille le marché toute la nuit, à ma place.",
+      "Commente AGENT, et je t'envoie le setup.",
+    ],
   },
   trans: [null, "zoom", "whipL", "stripes", "whipU", "zoom", "whipL", "zoom"],
   scenes: () => [
@@ -27,5 +37,5 @@ export default {
     endCard(8, { word: "AGENT" }),
   ],
   coverCss: `#cv .hnWrap{top:20px;transform:scale(.78);transform-origin:50% 0}#cv .hero{top:700px;gap:14px}#cv .hl1,#cv .hl2,#cv .hnN,#cv .hnTime,#cv .hnDate{opacity:1}#cv .mHN{display:none}`,
-  fr: {},
+  fr: {"WHILE YOU SLEPT": "PENDANT TA NUIT", "YOUR AGENT TRADED": "TON AGENT A TRADÉ", "PICK A STRATEGY": "CHOISIS UNE STRATÉGIE", "FROM CLAUDE SKILLS": "DANS TES SKILLS CLAUDE", "TESTED FIRST": "TESTÉE D'ABORD", "ON TRADINGVIEW DATA": "SUR LES DONNÉES TRADINGVIEW", "WATCHES THE MARKET": "SURVEILLE LE MARCHÉ", "ALL NIGHT": "TOUTE LA NUIT", "✅ Take profit hit · +2R": "✅ Take profit touché · +2R", "Gold RSI Scalper closed XAU/USD": "Gold RSI Scalper a clôturé XAU/USD"},
 };

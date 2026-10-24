@@ -1,5 +1,6 @@
 // US series (feature coming soon): missed TradingView alert -> alerts place orders.
 import { hookTV, connect, tvWebhook, tvAlert, tvFlow, guardrails, live, endCard } from "../lib/scenes.mjs";
+import { LANG } from "../lib/core.mjs";
 
 export default {
   id: "missedalert",
@@ -14,6 +15,16 @@ export default {
       "Even when you're nowhere near your screen.",
       "Comment ALERTS for early access.",
     ],
+    fr: [
+      "Tu as construit la stratégie TradingView parfaite. Et tu as raté l'alerte.",
+      "Maintenant, cubrik se connecte à Claude.",
+      "Demande un webhook à Claude.",
+      "Colle-le dans ton alerte. Ton script Pine ne change pas.",
+      "Chaque alerte devient un vrai ordre en quelques secondes.",
+      "Avec tes stops et tes limites journalières sur chaque trade.",
+      "Même quand tu es loin de ton écran.",
+      "Commente ALERTES pour l'accès en avant-première.",
+    ],
   },
   trans: [null, "zoom", "whipU", "stripes", "whipL", "zoom", "whipU", "zoom"],
   scenes: () => [
@@ -27,8 +38,8 @@ export default {
       l1: "AWAY FROM", l2: "YOUR SCREEN", title: "Gold RSI Strategy", sub: "TRIGGERED BY TRADINGVIEW · METATRADER 5",
       main: "✅ Order filled: XAU/USD Long", nsub: "From your TradingView alert", pnl: "+2R", notif: 1.4,
     }),
-    endCard(8, { word: "ALERTS", sub: "&amp; get early access" }),
+    endCard(8, { word: LANG === "fr" ? "ALERTES" : "ALERTS", sub: "&amp; get early access" }),
   ],
   coverCss: `#cv .tvWrap{top:-120px;transform:scale(.85);transform-origin:50% 0}#cv .hero{top:690px;gap:14px}#cv .hl2{opacity:1}#cv .tvAl{opacity:1}#cv .mTV{display:none}`,
-  fr: {},
+  fr: {"YOU MISSED": "TU AS RATÉ", "THE ALERT. AGAIN.": "L'ALERTE. ENCORE.", "IN SECONDS": "EN QUELQUES SECONDES", "AWAY FROM": "LOIN DE", "YOUR SCREEN": "TON ÉCRAN", "From your TradingView alert": "Depuis ton alerte TradingView"},
 };

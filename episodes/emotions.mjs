@@ -1,5 +1,6 @@
 // US series: "it's not your strategy, it's your emotions" -> rules-first agent.
 import { hookDesk, connect, skills, guardrails, backtest, confirm, live, endCard } from "../lib/scenes.mjs";
+import { LANG } from "../lib/core.mjs";
 
 export default {
   id: "emotions",
@@ -14,6 +15,16 @@ export default {
       "And now? No revenge trades. No FOMO. Just the rules.",
       "Comment RULES, and I'll send you the setup.",
     ],
+    fr: [
+      "Tu ne perds pas à cause de ta stratégie. Tu perds à cause de tes émotions.",
+      "Alors j'ai laissé un agent IA trader pour moi, directement depuis Claude.",
+      "J'ai choisi ma stratégie dans les skills de Claude.",
+      "J'ai écrit mes règles une fois. Stop loss sur chaque trade, perte max par jour.",
+      "Il a tout backtesté avant de risquer le moindre euro.",
+      "Rien ne passe en live sans mon accord.",
+      "Et maintenant ? Plus de revenge trading. Plus de FOMO. Juste les règles.",
+      "Commente RÈGLES, et je t'envoie le setup.",
+    ],
   },
   trans: [null, "zoom", "whipU", "stripes", "whipL", "zoom", "whipU", "zoom"],
   scenes: () => [
@@ -24,8 +35,8 @@ export default {
     backtest(5, { l1: "BACKTESTED", l2: "BEFORE ANY RISK" }),
     confirm(6, { l1: "NOTHING GOES LIVE", l2: "WITHOUT YOUR OK" }),
     live(7, { l1: "NO REVENGE TRADES", l2: "NO FOMO", title: "Gold Session Agent", main: "🛡 Trade skipped · daily loss limit", nsub: "Your rule: max −3% per day", pnl: "✓ RULES", notif: 1.6 }),
-    endCard(8, { word: "RULES" }),
+    endCard(8, { word: LANG === "fr" ? "RÈGLES" : "RULES" }),
   ],
   coverCss: `#cv .s1wrap{top:-120px;transform:scale(.85);transform-origin:50% 0}#cv .hero{top:690px;gap:14px}#cv .hl1,#cv .hl2{opacity:1}#cv .m1{display:none}`,
-  fr: {},
+  fr: {"IT'S NOT YOUR STRATEGY": "CE N'EST PAS TA STRATÉGIE", "IT'S YOUR EMOTIONS": "CE SONT TES ÉMOTIONS", "LET AN AGENT": "LAISSE UN AGENT", "EXECUTE IT": "L'EXÉCUTER", "PICK YOUR": "CHOISIS TA", "STRATEGY": "STRATÉGIE", "WRITE YOUR RULES": "ÉCRIS TES RÈGLES", "ONCE": "UNE FOIS", "BACKTESTED": "BACKTESTÉE", "BEFORE ANY RISK": "AVANT TOUT RISQUE", "NO REVENGE TRADES": "PLUS DE REVENGE TRADES", "NO FOMO": "PLUS DE FOMO", "Gold Session Agent": "Agent Gold Session", "🛡 Trade skipped · daily loss limit": "🛡 Trade évité · limite de perte du jour", "Your rule: max −3% per day": "Ta règle : max −3 % par jour", "✓ RULES": "✓ RÈGLES"},
 };

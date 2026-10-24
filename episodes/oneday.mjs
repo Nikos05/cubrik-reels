@@ -14,6 +14,16 @@ export default {
       "And nothing goes live without my OK.",
       "Comment CHALLENGE for early access.",
     ],
+    fr: [
+      "Une mauvaise journée, et tout ton challenge prop firm part en fumée.",
+      "Alors j'ai connecté cubrik à Claude.",
+      "J'ai donné mes règles de challenge à Claude, en un message.",
+      "Maintenant, chaque limite est suivie en direct.",
+      "Tout trade qui casserait une règle n'est jamais passé.",
+      "Les stratégies sont d'abord testées sur mes règles exactes.",
+      "Et rien ne passe en live sans mon accord.",
+      "Commente CHALLENGE pour l'accès en avant-première.",
+    ],
   },
   trans: [null, "zoom", "stripes", "whipL", "whipU", "zoom", "whipL", "zoom"],
   scenes: () => [
@@ -30,5 +40,5 @@ export default {
     endCard(8, { word: "CHALLENGE", sub: "&amp; get early access" }),
   ],
   coverCss: `#cv .propHookStage{top:-170px;transform:scale(.85);transform-origin:50% 50%}#cv .hero{top:690px;gap:14px}#cv .hl2,#cv .stamp{opacity:1}#cv .stamp{transform:rotate(-12deg)}#cv .phFill{transform:scaleX(.78)}`,
-  fr: {},
+  fr: {"ONE BAD DAY": "UNE MAUVAISE JOURNÉE", "CHALLENGE OVER": "CHALLENGE TERMINÉ"},
 };

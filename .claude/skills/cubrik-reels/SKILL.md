@@ -36,7 +36,8 @@ and `references/ugc.md` whenever a person should appear (an employee's filmed ta
    watch X and never Y", "Your X can now do Y", "Most X fail for one reason: Y".
 2. **Pick scenes** from `references/scenes.md`. Add a new factory to `lib/scenes.mjs` (+ CSS in
    `lib/scene-css.mjs`) only if nothing fits. Copy an existing episode (`episodes/youtube.mjs`) as template:
-   `vo.en`, `vo.fr`, `trans`, `scenes()`, `coverCss`, `fr` (every visible English string → French).
+   `vo.en`, `vo.fr`, `trans`, `scenes()`, `coverCss`, `fr`. Shared French UI strings live in `lib/fr-common.mjs`;
+   the episode's `fr` only adds its own labels/texts. CTA word per language: `word: LANG === "fr" ? "RÈGLES" : "RULES"`.
 3. **Voice** (Flora, voice Algenib, Gemini TTS) — exact settings in `references/voice.md`. Save each line as
    `assets/raw-<id>-<lang>/vo01.wav … vo08.wav`. Transcribe every line and regenerate any line with a
    repeated phrase, missing word or garbled start before going further.
