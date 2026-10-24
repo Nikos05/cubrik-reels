@@ -15,6 +15,8 @@ reuse its classes instead of re-declaring values.
 | Labels | JetBrains Mono, UPPERCASE, letter-spaced: black main label + violet keyword label, top of every scene (`labels(l1, l2)`) |
 
 ## Layout rules
+- **Safe area:** the engine wraps every full-screen scene in `.safe` (scale .84): tall phones crop ~90 px per side on
+  TikTok/Reels, plus the right-side buttons. Never design to the canvas edge; keep cards ≤ 960 px wide.
 - **Bottom 350 px stay clear** of anything important (Instagram UI). Top ~200 px holds the labels.
 - **Pixel cube mascot in every scene** (`mascot()`), small, reacting (bounce / look / jump).
 - Real logos only (`assets/logos/`: claude, binance, mt5, hyperliquid, youtube, tradingview). Use the real

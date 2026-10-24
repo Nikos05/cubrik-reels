@@ -383,3 +383,39 @@ Commente "CHALLENGE" et je t'envoie l'accès en avant-première dès que c'est e
 Pas un conseil financier. Réussir un challenge n'est jamais garanti. Aucun lien avec une prop firm.
 
 #propfirm #fundedtrader #challenge #trading #claude #ia #gestiondurisque #daytrading
+
+## 11. Pas besoin de coder — `cubrik-nocode-fr.mp4`
+
+Pas besoin de savoir coder pour avoir ton bot de trading 🧡
+
+Avec cubrik connecté à Claude, tu décris ta stratégie en français et Claude en fait un agent.
+
+1. Écris ta stratégie comme tu l'expliquerais à un pote
+2. Claude la transforme en règles claires, ou tu pars d'un skill tout prêt
+3. Il la backteste sur les données TradingView, puis tu relies ton broker
+
+Rien ne passe en live sans ton accord.
+
+Commente "BOT" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#tradingbot #nocode #claude #ia #agentia #tradingauto #trading #automatisation
+
+## 12. Trading manuel vs trading IA — `cubrik-vsia-fr.mp4`
+
+Trading manuel ou trading IA ? La vraie différence 🧡
+
+Même stratégie, mais avec cubrik connecté à Claude, c'est un agent qui l'exécute : il suit tes règles, sans fatigue et sans émotion.
+
+1. Choisis ta stratégie
+2. Teste-la sur des années de données avant de risquer un euro
+3. L'agent applique tes stops et tes limites à chaque trade, jour et nuit
+
+Rien ne passe en live sans ton accord.
+
+Commente "IA" et je t'envoie le guide d'installation.
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#tradingia #trading #daytrading #claude #ia #tradingauto #psychologietrading #agentia

@@ -29,7 +29,7 @@ choisit les scènes, génère la voix Algenib dans Flora, vérifie chaque prise,
 ```
 
 Épisodes disponibles : `youtube`, `tradingview`, `propfirm` (EN + FR), et la série en 6 épisodes (EN + FR) :
-`sleep`, `emotions`, `claude`, `savedvideos`, `missedalert`, `oneday`. Le reel de lancement
+`sleep`, `emotions`, `claude`, `savedvideos`, `missedalert`, `oneday`, plus `nocode` et `vsia` (FR). Le reel de lancement
 (« Claude just killed day traders ») : `REEL_LANG=fr node build.mjs && ./finalize.sh`.
 
 ## Avec une personne à l'écran (UGC)

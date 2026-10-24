@@ -11,8 +11,11 @@ All visible strings go through `tr()`, so add their French in the episode's `fr`
 | `hookDesk` | Hook: three monitors bleeding red, then dying | `l1, l2, strike` |
 | `hookChat` | Hook: someone asks Claude to trade, cubrik answers "agent ready" | `l1, l2, ask, lines, strike` |
 | `hookNotifs` | Hook: morning lock screen full of agent notifications | `l1, l2, time, date, items, strike` |
+| `hookCode` | Hook: wall of bot code blurred under a "0 LINES OF CODE" stamp | `l1, l2, stamp` |
+| `hookVs` | Hook: manual vs AI comparison table (discipline/time, never returns) | `l1, l2, rows` |
 | `connect` | Scene 2 almost always: "Connect cubrik to Claude" (Claude tile ↔ cubrik tile) | `l1, l2` |
 | `broker` | "connect my broker" → Binance / MetaTrader / Hyperliquid checked | `l1, l2, msg` |
+| `describe` | User describes a strategy in words → rules → "Agent created" | `l1, l2, msg, rules, agent` |
 | `skills` | Claude Skills grid, one gets picked | `l1, l2, skills, pick, ring` |
 | `ytCopy` | YouTube player → Share → Copy link | `l1, l2, tap` |
 | `chatAnalyze` | Paste link in Claude → cubrik analyzes → rules card | `l1, l2` |
@@ -35,6 +38,7 @@ Proven sequences (look at the episode files). Every hook visual is used once per
 - `episodes/propfirm.mjs` — hookProp, connect, propRules, propGauges, propBlocked, backtest, confirm, endCard
 - US series (EN only): `sleep` (hookNotifs), `emotions` (hookDesk), `claude` (hookChat, "STEP 1…5" labels),
   `savedvideos` (hookFeed, no strike), `missedalert` (hookTV), `oneday` (hookProp)
+- `nocode` (hookCode, describe) and `vsia` (hookVs) — TikTok FR
 
 ## Writing a new scene
 Return `{ html, js, sfx, min }`:
