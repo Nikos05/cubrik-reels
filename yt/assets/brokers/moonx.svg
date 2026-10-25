@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1012 1012" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H1012V1012H0V0Z" fill="#000F10"/>
+<path d="M718.874 243.002H856.687L652.573 493.614L650.968 495.585L652.648 497.492L788.706 651.986H681.826L591.926 562.828L589.724 560.644L587.614 562.919L455.817 705.023C424.969 682.815 409.037 667.77 384.046 640.397L520.965 488.083L522.725 486.125L521.012 484.125L390.842 332.217L508.8 333.021L579.847 414.315L582.23 417.041L584.466 414.193L718.874 243.002Z" fill="url(#paint0_linear_moonx)" stroke="url(#paint1_linear_moonx)" stroke-width="6"/>
+<path d="M568.828 857.872C391.355 880.259 216.197 781.377 163.377 599.658C142.47 527.731 144.141 468.238 160.808 407.872C177.116 342.654 215.719 283.066 274.678 228.07C346.134 165.965 430.773 144.897 524.675 151.017C443.459 159.253 375.725 214.505 331.184 281.158C281.391 356.911 275.665 449.797 293.933 533.731C310.1 588.746 338.826 639.752 375.005 679.283C455.109 757.026 569.243 799.654 689.057 762.362C750.023 746.531 809.882 704.186 862 626.199C823.094 750.309 698.044 843.596 568.828 857.872Z" fill="url(#paint2_radial_moonx)" stroke="#006b52"/>
+<defs>
+<linearGradient id="paint0_linear_moonx" x1="326.938" y1="795.442" x2="922.052" y2="133.374" gradientUnits="userSpaceOnUse">
+<stop stop-color="#004d3d"/>
+<stop offset="0.147482" stop-opacity="0.84"/>
+<stop offset="0.806616" stop-color="#00d9a3"/>
+<stop offset="0.835735" stop-color="#00e6bb"/>
+<stop offset="0.9999" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint1_linear_moonx" x1="379.177" y1="741.426" x2="862.797" y2="219.841" gradientUnits="userSpaceOnUse">
+<stop stop-color="#006b52"/>
+<stop offset="1" stop-color="#00ffcc"/>
+</linearGradient>
+<radialGradient id="paint2_radial_moonx" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(533.5 534.502) rotate(148.201) scale(411.812 511.872)">
+<stop offset="0.547499" stop-color="#005544"/>
+<stop offset="0.821966" stop-color="#00d9a3"/>
+</radialGradient>
+</defs>
+</svg>

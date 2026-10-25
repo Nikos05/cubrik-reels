@@ -2,7 +2,9 @@
 
 Format : accroche + emoji, l'outil en une phrase, 3 étapes, ligne de sécurité, CTA « Commente X », mention légale, hashtags.
 
-> ⚠️ Les vidéos YouTube, TradingView et prop firm présentent des fonctionnalités **pas encore disponibles**. Leurs légendes disent donc « bientôt » et le CTA promet un accès en avant-première, pas un guide d'installation. Quand une fonctionnalité sort, il suffit de remplacer le CTA par celui du lancement.
+> ✅ YouTube → agent et les alertes TradingView sont **disponibles** depuis octobre 2026 : les nouvelles légendes ne disent plus « bientôt » pour ces fonctions (les anciennes légendes ci-dessous datent d'avant la sortie).
+>
+> ⚠️ Les vidéos prop firm présentent une fonctionnalité **pas encore disponible**. Leurs légendes disent donc « bientôt » et le CTA promet un accès en avant-première, pas un guide d'installation. Quand une fonctionnalité sort, il suffit de remplacer le CTA par celui du lancement.
 
 ---
 

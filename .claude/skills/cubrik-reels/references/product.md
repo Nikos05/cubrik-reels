@@ -2,6 +2,7 @@
 
 Captured from cubrik.ai (home, /pricing, /faq) on 2026-10-24. Re-check the site before claiming anything new;
 if a fact is not here or on the site, don't say it in a video.
+Links: site https://cubrik.ai · mobile apps (App Store + Google Play) https://cubrik.ai/app-download
 
 ## One-liner
 A trading workspace with every AI on the market, connected to your broker. You describe or pick a strategy,
@@ -20,7 +21,8 @@ login for MetaTrader 4/5. About 30 seconds, once. Revocable any time.
 
 ## AIs
 Claude, GPT, Gemini, Grok, DeepSeek, Qwen, Kimi, Mistral, Llama, Perplexity (+ new versions), plus **Jev**, the
-model trained on trading that scores your strategies ("Jev score"). Three modes choose the model: Fast (scans,
+model trained on trading that scores your strategies ("Jev score"). Jev is NOT a cubrik-built model: cubrik has no
+model of its own, so never say "our own model" (logo: `yt/assets/ai/jev.png`). Three modes choose the model: Fast (scans,
 alerts), Balanced (strategies, analyses), Precise (backtests, live decisions). You can force a model.
 "The most powerful models, one subscription."
 
@@ -31,6 +33,11 @@ alerts), Balanced (strategies, analyses), Precise (backtests, live decisions). Y
 - The agent scans at the plan's frequency (1 h / 30 min / 15 min / 5 min), places orders with stop + target at
   the broker, notifies on every pass. Ask in chat why it didn't enter, change a setting, pause, stop.
 - Several pairs per strategy. 14 ready strategies in the catalogue.
+- **YouTube → agent (live since Oct 2026):** paste the link of any YouTube strategy video, cubrik watches it, pulls out
+  every rule, asks what the video forgot, builds the agent (then backtest / demo / approval as usual). No longer "coming soon".
+- **TradingView alerts → orders (live since Oct 2026):** ask Claude/cubrik for a webhook, paste it in a TradingView alert,
+  the Pine script stays the same; every alert becomes an order on the broker in seconds, with stops and daily loss limits.
+  No longer "coming soon".
 - **Library:** 13,353 agents shared by members, each with its backtest. Copy one, change one rule, it starts on your
   broker. "No ranking, no promises."
 - **Analytics that talk back:** reads your account, finds where the money goes (e.g. by session), recommends

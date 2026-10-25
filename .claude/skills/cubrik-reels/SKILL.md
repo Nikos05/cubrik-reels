@@ -24,7 +24,7 @@ and `references/ugc.md` whenever a person should appear (an employee's filmed ta
    beats → proof (backtest / guardrails / live notification) → "nothing goes live without your OK" →
    end card `Comment "WORD"`. One voice line per scene, cut on every line, no dead air.
 4. **Compliance:** no profit promises; demo numbers only; "Not financial advice" in every caption;
-   unreleased features say **"coming soon / bientôt"** and the CTA promises early access, not a setup guide;
+   unreleased features (prop firm mode — YouTube → agent and TradingView alerts are live) say **"coming soon / bientôt"** and the CTA promises early access, not a setup guide;
    a person on screen (UGC) only with their consent, an AI avatar always disclosed (Instagram "AI info" + bio),
    never a real person's photo animated without consent; never imply
    Anthropic endorses cubrik ("cubrik works with Claude", never "partner/official").

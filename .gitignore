@@ -21,3 +21,9 @@ assets/takes/
 assets/ugc/
 .media/
 .thumbnails/
+
+# YouTube video: generated voices + timeline (rebuilt from assets/ugc/yt/full) and AI avatar test clips
+yt/assets/full/
+yt/assets/shot*.mp4
+yt/assets/take.wav
+yt/assets/vo3.wav
