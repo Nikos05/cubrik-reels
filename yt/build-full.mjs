@@ -19,7 +19,7 @@ const SEG = TAKES.map((k) => {
   const audio = pres ? `assets/full/take${k.id}.wav` : `assets/full/vo${k.id}.wav`;
   const a = probe(audio);
   const lead = pres ? 0 : 0.2;
-  const d = +(a + lead + (pres ? 0.05 : 0.3)).toFixed(3);
+  const d = +(a + lead + (pres ? -0.25 : 0.3)).toFixed(3);
   const s = { ...k, pres, audio, a, lead, start: +t.toFixed(3), d };
   t += d;
   return s;
@@ -54,7 +54,15 @@ const SCENES = {
       [[-14,6],[12,-5],[-8,3],[5,-2],[0,0]].forEach(([x,y],k)=>tl.to(S+".hk1",{x:x,y:y,duration:.04},T+2.0+k*.04));
       tl.fromTo(S+".hkl2 i",{scaleX:0},{scaleX:1,duration:.22,ease:"power3.out"},T+2.42);tl.to(S+".hkl2 span",{color:"#ffffffb3",duration:.2},T+2.5);tl.to(S+".hk1",{opacity:0,scale:.96,duration:.25},T+D-.3);`,
   }),
-  // full-screen b-roll (night trader / student / trading floor) is laid in the base track by produce-full.py (BROLL);
+  // (unused) h2 split screen: dark panel on the left, the presenter (45° camera) is cropped to the right half by produce-full.py (SPLIT)
+  oh2: () => ({
+    html: `<div class="sp">${[["01", "Hours staring", "at charts", "hk-night.png"], ["02", "Years of", "studying", "hk-study.png"], ["03", "Being an", "expert", "hk-wall.png"]].map(([n, a, b, img], k) => `<div class="spk q${k}"><div class="spn mono">NO MORE · ${n}</div><div class="spt">${a}<br>${b}<i></i></div><div class="spc"><img src="assets/img/${img}" alt=""><span class="spx">✕</span></div></div>`).join("")}</div>`,
+    js: () => `const V=T+.1;tl.fromTo(S+".sp",{xPercent:-100},{xPercent:0,duration:.45,ease:"expo.out"},T);
+      [[0,1.68,2.32],[2.32,3.44,4.16],[4.16,5.12,99]].forEach(([a,b,e],k)=>{const q=S+".q"+k;tl.fromTo(q,{y:40,opacity:0},{y:0,opacity:1,duration:.35,ease:"expo.out"},V+a-(k?.05:-.15));
+        tl.fromTo(q+" .spc img",{scale:1.15},{scale:1,duration:2.2,ease:"power1.out"},V+a);tl.fromTo(q+" i",{scaleX:0},{scaleX:1,duration:.22,ease:"power3.out"},V+b+.2);
+        tl.fromTo(q+" .spx",{scale:0},{scale:1,duration:.3,ease:"back.out(3)"},V+b+.25);tl.to(q+" .spc img",{filter:"grayscale(1) brightness(.6)",duration:.3},V+b+.25);if(e<99)tl.to(q,{y:-30,opacity:0,duration:.2},V+e-.15);});`,
+  }),
+  // full-screen b-roll (night trader / student / trading floor) laid in the base track by produce-full.py (BROLL);
   // this overlay only adds the vignette, the three lines and their strike-through, cut on the same beats
   hookKin: () => ({
     html: `<div class="hkv"></div><div class="hkrows">${[["No more hours", "staring at charts"], ["No more years", "of studying"], ["No need to be", "an expert"]].map(([a, b], k) => `<div class="hkr r${k}"><div><span class="hka">${a}</span><span class="hkb">${b}</span><i></i></div></div>`).join("")}</div>`,
@@ -301,7 +309,7 @@ SEG.forEach((s, i) => {
     const next = SEG[i + 1];
     if (next && next.pres) { js += `tl.to("#g${s.id}",{opacity:0,filter:"blur(12px)",scale:1.04,duration:.3,ease:"power2.in"},${(s.start + s.d - 0.3).toFixed(3)});`; sfx.push(["whoosh-short", s.start + s.d - 0.25, 0.3]); }
   }
-  aud.push(`<audio id="a${s.id}" src="${s.audio}" data-start="${(s.start + s.lead).toFixed(3)}" data-duration="${s.a.toFixed(3)}" data-track-index="20" data-volume="1"></audio>`);
+  aud.push(`<audio id="a${s.id}" src="${s.audio}" data-start="${(s.start + s.lead).toFixed(3)}" data-duration="${Math.min(s.a, s.d - s.lead).toFixed(3)}" data-track-index="${19 + (i % 2)}" data-volume="1"></audio>`);
 });
 // light ui sfx on key beats of demos
 const at = (id, sec, f, v) => { const s = SEG.find((k) => k.id === id); sfx.push([f, s.start + sec, v]); };
@@ -311,8 +319,7 @@ at("12", 10.35, "pop", 0.3); at("12", 15.1, "ping", 0.35); beat("15", 0.92, "cli
 beat("20", 0.72, "click-soft", 0.3); beat("20", 0.8, "notification", 0.35); beat("22", 0.2, "click-soft", 0.3); beat("22", 0.86, "sparkle", 0.3); beat("24", 0.42, "click-soft", 0.3); beat("24", 0.6, "ping", 0.3);
 at("27", 8.05, "notification", 0.3); at("27", 9.0, "notification", 0.3); at("27", 10.6, "take_profit", 0.35); at("27", 3.8, "whoosh-short", 0.2); beat("29", 0.92, "ping", 0.35); beat("32", 0.12, "pop", 0.25); beat("32", 0.34, "pop", 0.25); beat("32", 0.62, "pop", 0.25);
 beat("36", 0.08, "sparkle", 0.3);
-at("h1", 0.08, "whoosh", 0.35); at("h1", 1.98, "impact-bass-1", 0.55); at("h1", 2.42, "glitch-1", 0.3);
-at("h2", 0.15, "impact-bass-1", 0.4); at("h2", 2.45, "impact-bass-1", 0.4); at("h2", 4.3, "impact-bass-1", 0.45);
+at("h1", 0.08, "whoosh", 0.35); at("h1", 1.98, "impact-bass-1", 0.45);
 at("h3", 1.1, "pop", 0.25); at("h3", 3.5, "whoosh-short", 0.3); at("h3", 4.2, "sparkle", 0.35);
 at("h4", 0.8, "click-soft", 0.3); at("h4", 3.1, "pop", 0.25); at("h4", 3.85, "click-soft", 0.25); at("h4", 6.5, "sparkle", 0.25); at("h4", 7.3, "whoosh-short", 0.22); at("h4", 7.8, "notification", 0.3); at("h4", 8.55, "whoosh-short", 0.22); at("h4", 9.05, "take_profit", 0.4);
 at("h5", 2.15, "impact-bass-1", 0.35);
@@ -365,6 +372,13 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transpa
 .ebig{font-weight:800;font-size:54px}.eurl{font-size:22px;color:var(--pulse)}.eapp{font-weight:600;font-size:22px;background:#f2f1ec;color:#0d0d0f;padding:10px 22px;border-radius:12px}
 .legal{margin-top:16px;font-size:16px;color:#ffffffaa}
 /* hook */
+.sp{position:absolute;left:0;top:0;bottom:0;width:820px;background:radial-gradient(circle at 20% 30%,#3b1260 0%,#14051f 55%,#050208 100%);box-shadow:30px 0 60px rgba(0,0,0,.5)}
+.spk{position:absolute;left:90px;right:60px;top:190px;opacity:0}
+.spn{font-size:26px;letter-spacing:.22em;color:#c4b5fd}
+.spt{position:relative;display:inline-block;font-weight:600;font-size:78px;line-height:1.05;margin:18px 0 40px}.spt i{position:absolute;left:-8px;right:-8px;top:76%;height:10px;background:#fb7185;border-radius:5px;transform-origin:left center;box-shadow:0 0 24px #fb718588}
+.spc{position:relative;width:640px;height:360px;border-radius:26px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6),0 0 0 2px #ffffff18}.spc img{width:100%;height:100%;object-fit:cover}
+.spx{position:absolute;right:18px;top:18px;width:64px;height:64px;border-radius:50%;background:#fb7185;color:#fff;display:grid;place-items:center;font-size:34px;font-weight:800;box-shadow:0 0 0 6px #ffffff33}
+
 .hk1{position:absolute;left:0;right:0;bottom:90px;display:flex;flex-direction:column;align-items:center;gap:10px}
 .hkl1{display:flex;align-items:center;gap:18px;font-weight:800;font-size:60px;text-transform:uppercase;letter-spacing:.04em;background:#f2f1ec;color:#0d0d0f;border-radius:18px;padding:10px 34px 10px 24px;box-shadow:0 20px 50px -12px rgba(0,0,0,.55)}.hkl1 img{width:64px;height:64px}
 .hkl2{position:relative;font-family:"JetBrains Mono";font-weight:700;font-size:118px;letter-spacing:.06em;background:var(--deep);color:#fff;border-radius:20px;padding:4px 38px;box-shadow:0 30px 80px -20px #7c3aedcc}.hkl2 span{color:#fff}

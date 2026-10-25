@@ -27,3 +27,6 @@ yt/assets/full/
 yt/assets/shot*.mp4
 yt/assets/take.wav
 yt/assets/vo3.wav
+# thumbnails: AI presenter cutouts and studio frame stay out of git (regenerated from the presenter stills)
+yt/thumb*/p-*.png
+yt/thumb*/a/studio.png
