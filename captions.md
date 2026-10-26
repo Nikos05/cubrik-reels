@@ -721,3 +721,21 @@ Comment "PROP" and I'll send you early access as soon as it's live.
 Not financial advice. Passing a challenge is never guaranteed. Presenter is AI-generated.
 
 #propfirm #fundedtrader #trading #forex #algotrading #automation #claude #aiagents
+
+## T1. Wall Street price anchor — `cubrik-terminal-en.mp4`
+
+Wall Street pays ~$30,000 a year per seat for its market terminal 🧡
+
+I connected cubrik to Claude and asked for the same kind of work, in a chat:
+
+1. "Scan gold for me": news, economic calendar and indicators in seconds
+2. Backtest the idea on 5 years of data, then see which session loses money
+3. An agent trades it, with stop loss and take profit set automatically
+
+Nothing goes live without your OK. Start on a free demo account.
+
+Comment "TERMINAL" and I'll send you the setup guide.
+
+Not financial advice. Past performance does not guarantee future results. Figures shown are from a demo account and a backtest.
+
+#trading #algotrading #gold #xauusd #claudeai #aitrading #wallstreet #cubrik
