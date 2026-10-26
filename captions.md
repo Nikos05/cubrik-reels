@@ -739,3 +739,113 @@ Comment "TERMINAL" and I'll send you the setup guide.
 Not financial advice. Past performance does not guarantee future results. Figures shown are from a demo account and a backtest.
 
 #trading #algotrading #gold #xauusd #claudeai #aitrading #wallstreet #cubrik
+
+# TikTok FR (Paulito AI) — série « résultat d'abord » + terminal
+
+## TF1. Or — `cubrik-goldwin-fr.mp4`
+
+Je me suis réveillé avec un trade sur l'or clôturé 🧡
+
+Une stratégie précise, écrite en une phrase, connectée à Claude avec cubrik.
+
+1. Tu décris ton setup : zone, stop loss, take profit
+2. Claude surveille XAU/USD pour toi
+3. Le prix revient dans ta zone → l'ordre part avec SL et TP déjà placés
+
+Rien ne passe en live sans ton accord. Compte démo.
+
+Commente "GOLD" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#trading #or #xauusd #claude #ia #tradingauto #metatrader #cubrik
+
+## TF2. Bitcoin — `cubrik-btcwin-fr.mp4`
+
+Un trade sur le Bitcoin. Zéro clic de ma part 🧡
+
+Mes règles, écrites une fois, connectées à Claude avec cubrik.
+
+1. Tu écris ta stratégie : zone d'entrée, stop loss, take profit
+2. Claude surveille BTC/USDT sur Binance
+3. Le prix touche la zone → l'ordre part avec SL et TP déjà placés
+
+Rien ne passe en live sans ton accord. Compte démo.
+
+Commente "BITCOIN" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#bitcoin #btc #crypto #trading #claude #ia #binance #cubrik
+
+## TF3. Nasdaq — `cubrik-nasdaqwin-fr.mp4`
+
+J'étais en réunion quand le trade sur le Nasdaq s'est clôturé 🧡
+
+Une stratégie précise, connectée à Claude avec cubrik, sur MetaTrader 5.
+
+1. Tu décris ton setup en français
+2. Claude surveille le NAS100 pendant que tu bosses
+3. Le prix revient dans la zone → ordre placé avec SL et TP automatiques
+
+Rien ne passe en live sans ton accord. Compte démo.
+
+Commente "NASDAQ" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#nasdaq #nas100 #daytrading #trading #claude #ia #metatrader #cubrik
+
+## TF4. Forex — `cubrik-forexwin-fr.mp4`
+
+J'étais à la salle. Le trade sur l'EUR/USD, lui, ne m'a pas attendu 🧡
+
+Une stratégie claire, connectée à Claude avec cubrik, sur MetaTrader 5.
+
+1. Tu écris tes règles : zone, stop loss, take profit
+2. Claude surveille l'EUR/USD pour toi
+3. Le prix revient dans la zone → l'ordre part avec SL et TP placés
+
+Rien ne passe en live sans ton accord. Compte démo.
+
+Commente "FOREX" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#forex #eurusd #trading #claude #ia #tradingauto #metatrader #cubrik
+
+## TF5. Solana — `cubrik-solwin-fr.mp4`
+
+100 % automatique. De la zone jusqu'au take profit 🧡
+
+Une stratégie Solana sur Hyperliquid, connectée à Claude avec cubrik.
+
+1. Tu décris ton setup une seule fois
+2. Claude surveille SOL/USDC 24 h/24
+3. Le prix revient dans la zone → ordre placé avec SL et TP
+
+Rien ne passe en live sans ton accord. Compte démo.
+
+Commente "AGENT" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#solana #crypto #hyperliquid #trading #claude #ia #tradingauto #cubrik
+
+## TF6. Terminal — `cubrik-terminal-fr.mp4`
+
+Wall Street paie environ 30 000 $ par an et par poste pour son terminal de marché 🧡
+
+J'ai connecté cubrik à Claude et je lui ai demandé le même genre de travail, dans un chat :
+
+1. « Scanne l'or » : news, calendrier éco et indicateurs en quelques secondes
+2. Backtest de l'idée sur 5 ans, puis la session qui fait perdre de l'argent
+3. Un agent la trade, avec stop loss et take profit placés automatiquement
+
+Rien ne passe en live sans ton accord. Commence sur un compte démo gratuit.
+
+Commente "TERMINAL" et je t'envoie le guide de setup 👇
+
+Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs. Chiffres issus d'un compte démo et d'un backtest.
+
+#trading #or #wallstreet #claude #ia #tradingauto #backtest #cubrik

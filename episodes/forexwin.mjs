@@ -12,6 +12,17 @@ export default winEpisode({
   recap: { title: "This month", l1: "THIS MONTH", l2: "+13% · ZERO TRADES BY ME", from: 10000, to: 11300,
     trades: [["EUR/USD", "LONG · TP", "+$612.00"], ["GBP/USD", "LONG · TP", "+$488.40"], ["EUR/USD", "LONG · SL", "−$251.00"], ["USD/JPY", "SHORT · TP", "+$450.60"]] },
   word: "FOREX",
+  fr: {"WHILE I WAS": "PENDANT QUE", "AT THE GYM": "J'ÉTAIS À LA SALLE", "buy EUR/USD pullbacks to the 50 EMA on the 1h, only with the trend, 1% risk": "achète les replis de l'EUR/USD sur l'EMA 50 en 1h, seulement dans la tendance, 1 % de risque", "Pullback to the 50 EMA": "Repli sur l'EMA 50", "TP 2R · SL under the swing": "TP 2R · SL sous le swing", "PRICE DIPS ONTO": "LE PRIX TOUCHE", "MY 50 EMA": "MON EMA 50", "SL + TP": "SL + TP", "PLACED BY THE AI": "PLACÉS PAR L'IA", "40 MINUTES LATER": "40 MINUTES PLUS TARD", "+13% · ZERO TRADES BY ME": "+13 % · ZÉRO TRADE PAR MOI", "EUR/USD EMA Pullback closed EUR/USD long": "EUR/USD EMA Pullback a clôturé le long EUR/USD"},
+  voFr: [
+    "Plus six cent douze dollars. J'étais à la salle de sport.",
+    "Voilà ce qui s'est vraiment passé. cubrik tourne dans Claude.",
+    "Je lui ai demandé une seule chose : acheter les replis de l'euro dollar sur l'EMA cinquante.",
+    "Le prix est descendu pile sur ma moyenne mobile.",
+    "L'IA est entrée, et a placé mon stop et mon take profit toute seule.",
+    "Quarante minutes plus tard : take profit touché. Plus six cent douze.",
+    "Mon compte a pris treize pour cent ce mois-ci. Et je n'ai pas passé un seul trade.",
+    "Commente forex, et je t'envoie le setup."
+  ],
   vo: [
     "Plus six hundred twelve dollars. I was at the gym.",
     "Here's what actually happened. cubrik runs inside Claude.",
