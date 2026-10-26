@@ -31,6 +31,9 @@ All visible strings go through `tr()`, so add their French in the episode's `fr`
 | `propRules` | Tell Claude your challenge rules | `l1, l2, msg` |
 | `propGauges` | Daily loss / drawdown gauges live | `l1, l2` |
 | `propBlocked` | Order that breaks a rule gets blocked | `l1, l2` |
+| `hookWin` | Hook, result first: huge green P&L counting up + take-profit notification (demo account label) | `l1, l2, amount, pair, side, acct, main, nsub, when` |
+| `chartTrade` | The trade on a chart, 3 phases of the same chart: `zone` (price back in my zone) → `order` (BUY + SL/TP lines "set automatically") → `hit` (take profit stamp) | `phase, l1, l2, pair, tf, broker, entry, sl, tp, pnl` |
+| `recap` | Account recap: balance counting up, trades executed by the AI, "0 clicks from me" | `l1, l2, title, acct, from, to, trades` |
 
 Proven sequences (look at the episode files). Every hook visual is used once per batch — vary them:
 - `episodes/youtube.mjs` — hookFeed, connect, ytCopy, chatAnalyze, clarify, backtest, confirm, endCard
@@ -38,6 +41,7 @@ Proven sequences (look at the episode files). Every hook visual is used once per
 - `episodes/propfirm.mjs` — hookProp, connect, propRules, propGauges, propBlocked, backtest, confirm, endCard
 - US series (EN only): `sleep` (hookNotifs), `emotions` (hookDesk), `claude` (hookChat, "STEP 1…5" labels),
   `savedvideos` (hookFeed, no strike), `missedalert` (hookTV), `oneday` (hookProp)
+- Result-first series (`lib/win-episode.mjs`: hookWin, connect, describe, chartTrade ×3, recap, endCard): `goldwin`, `btcwin`, `nasdaqwin`, `forexwin`, `solwin`
 - `nocode` (hookCode, describe) and `vsia` (hookVs) — TikTok FR
 
 ## Writing a new scene

@@ -30,3 +30,6 @@ yt/assets/vo3.wav
 # thumbnails: AI presenter cutouts and studio frame stay out of git (regenerated from the presenter stills)
 yt/thumb*/p-*.png
 yt/thumb*/a/studio.png
+
+# YouTube Shorts variant: copies of raw-<ep>-<lang>/ with the last line swapped (rebuilt by YT=1 ./produce.sh)
+assets/raw-*-yt/

@@ -11,10 +11,14 @@ HF="npx --yes hyperframes@0.8.191"
 TEMPO=1.25; [ "$LANG_" = fr ] && TEMPO=1.28
 SFX=""; [ -n "$UGC" ] && SFX="-ugc"   # UGC=1 ./produce.sh ... builds the AI-avatar split-screen version
 [ -n "$REEL_TAKE" ] && SFX="-take"   # REEL_TAKE=assets/takes/<name> ./produce.sh ... uses a filmed take (see take-prep.mjs)
+YTV=""; [ -n "$YT" ] && { SFX="-yt"; YTV="-yt"; }   # YT=1 ./produce.sh ... YouTube Shorts version: last line = assets/raw-yt-cta-<lang>.wav (bio + cubrik.ai)
 
 # 1. voice: trim edges, tighten pauses, speed up (pitch preserved)
-RAW=assets/raw-$EP-$LANG_; OUT=assets/vo-$EP-$LANG_
+RAW=assets/raw-$EP-$LANG_; OUT=assets/vo-$EP-$LANG_$YTV
 mkdir -p $OUT
+if [ -n "$YT" ]; then   # same lines, the last one swapped for the YouTube call to action
+  Y=assets/raw-$EP-$LANG_-yt; rm -rf $Y; cp -R $RAW $Y; cp assets/raw-yt-cta-$LANG_.wav $Y/$(ls $RAW | sort | tail -1); RAW=$Y
+fi
 if [ -z "$REEL_TAKE" ]; then
 A="silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02:stop_periods=-1:stop_threshold=-42dB:stop_duration=0.15:stop_silence=0.07"
 R="areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.06,areverse"
@@ -24,7 +28,7 @@ done
 fi
 
 # 2. build + check
-REEL_TAKE=$REEL_TAKE REEL_UGC=$UGC REEL_LANG=$LANG_ node make.mjs $EP
+REEL_TAKE=$REEL_TAKE REEL_UGC=$UGC REEL_YT=$YT REEL_LANG=$LANG_ node make.mjs $EP
 ${=HF} check 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | grep -E "Check (passed|failed)" || true
 
 # 3. render reel + cover

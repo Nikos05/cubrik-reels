@@ -59,6 +59,7 @@ and `references/ugc.md` whenever a person should appear (an employee's filmed ta
 ./produce.sh youtube en          # one finished reel
 node take-prep.mjs youtube fr me.mp4 && REEL_TAKE=assets/takes/youtube-fr ./produce.sh youtube fr   # with a filmed take
 UGC=1 ./produce.sh youtube fr    # with AI-avatar clips (references/ugc.md)
+YT=1 ./produce.sh youtube en     # YouTube Shorts version: last line + end card point to the bio and cubrik.ai (no comment-to-DM there)
 REEL_LANG=fr node make.mjs youtube && npx hyperframes@0.8.191 preview   # live preview while editing
 npx hyperframes@0.8.191 snapshot --at 2,6,10 -o snaps                   # frames to review
 ```
