@@ -18,6 +18,7 @@ Fichier : `renders/cubrik-ai-battle.mp4` (4K, 4 min 58). Miniatures : `renders/t
 - **K** : laptop Analytics « +$12,289.00 » + tuiles cubrik + Claude qui brillent, Max surpris (style KDP)
 - **L** : « STEP-BY-STEP / COPY ME » + carte Claude « $62,289 Balance · demo », Max souriant (style Copy me)
 - **M** : les 3 logos en gros en haut, Max en bas qui les regarde, effrayé
+- **N** : comme M (ordre Claude / Grok / ChatGPT), avec +$12,289 en vert à gauche et −$2,839 en rouge à droite
 
 ## Description
 
