@@ -17,6 +17,7 @@ Fichier : `renders/cubrik-ai-battle.mp4` (4K, 4 min 58). Miniatures : `renders/t
 - **J** : courbes des 3 IA sur fond clair + carte « +24.6% » (va avec le titre 3)
 - **K** : laptop Analytics « +$12,289.00 » + tuiles cubrik + Claude qui brillent, Max surpris (style KDP)
 - **L** : « STEP-BY-STEP / COPY ME » + carte Claude « $62,289 Balance · demo », Max souriant (style Copy me)
+- **M** : les 3 logos en gros en haut, Max en bas qui les regarde, effrayé
 
 ## Description
 
