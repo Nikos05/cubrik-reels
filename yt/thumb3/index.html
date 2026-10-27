@@ -1,0 +1,83 @@
+<!doctype html>
+<!-- Thumbnails for "Claude vs ChatGPT vs Grok" (H/I/J), one per second: snapshot at 0.5 / 1.5 / 2.5 s, exported 1280x720.
+     Figures are the demo-account results of the video ($50,000 each, one week, gold). -->
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:Poppins;font-weight:800;src:url(a/poppins-latin-800-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:600;src:url(a/poppins-latin-600-normal.woff2)}
+@font-face{font-family:"JetBrains Mono";font-weight:700;src:url(a/jetbrains-mono-latin-700-normal.woff2)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000}
+#root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:Poppins,sans-serif;color:#fff}
+.th{position:absolute;inset:0;overflow:hidden}
+.full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pres{position:absolute;height:1180px;bottom:-60px}
+.ic{position:absolute;filter:drop-shadow(0 30px 40px rgba(0,0,0,.45))}
+/* glossy dark tiles for the white ChatGPT / Grok marks, same build as the rendered Claude icon */
+.tile{position:absolute;border-radius:24%;display:grid;place-items:center;background:linear-gradient(160deg,#4a4a52 0%,#1c1c21 50%,#060608 100%);box-shadow:inset 0 10px 16px rgba(255,255,255,.28),inset 0 -16px 26px rgba(0,0,0,.6),0 16px 0 #000,0 50px 70px rgba(0,0,0,.55)}
+.tile img{width:62%;height:62%;filter:drop-shadow(0 6px 10px rgba(0,0,0,.6))}
+.demo{position:absolute;font-family:"JetBrains Mono";font-weight:700;font-size:30px;letter-spacing:.14em;background:rgba(10,10,12,.82);border:2px solid #ffffff33;border-radius:12px;padding:8px 18px}
+/* H */
+.hHead{position:absolute;right:60px;top:40px;text-align:right;font-weight:800;font-size:96px;line-height:.95;letter-spacing:-.02em;text-shadow:0 8px 30px rgba(0,0,0,.7)}.hHead span{color:#f5c542}
+.row{position:absolute;right:60px;display:flex;align-items:center;gap:28px}
+.row .v{font-weight:800;font-size:132px;letter-spacing:-.03em;line-height:1}
+.pos{color:#4ade80;text-shadow:0 8px 0 #14532d,0 20px 40px rgba(0,0,0,.6)}.neg{color:#fb7185;text-shadow:0 8px 0 #7f1d1d,0 20px 40px rgba(0,0,0,.6)}
+.crown{position:absolute;font-size:110px;filter:drop-shadow(0 10px 20px rgba(0,0,0,.6))}
+/* I */
+.vs{position:absolute;top:250px;font-weight:800;font-style:italic;font-size:150px;color:#f5c542;text-shadow:0 8px 0 #7c5b00,0 24px 40px rgba(0,0,0,.8)}
+.chrome{position:absolute;left:0;right:0;bottom:40px;text-align:center;font-weight:800;font-style:italic;font-size:250px;letter-spacing:-.03em;line-height:1;background:linear-gradient(180deg,#ffffff 0%,#f1f1f4 45%,#a9a9b4 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 6px 0 #3a3a44) drop-shadow(0 24px 40px rgba(0,0,0,.8))}
+.lab{position:absolute;top:640px;width:420px;text-align:center;font-weight:800;font-size:64px;text-shadow:0 6px 20px rgba(0,0,0,.8)}
+/* J */
+.grid{position:absolute;inset:0;background:#f6f7fb;background-image:linear-gradient(#e6e8ef 2px,transparent 2px);background-size:100% 180px}
+.head{position:absolute;right:60px;top:40px;text-align:right;font-weight:800;font-size:112px;line-height:.95;letter-spacing:-.02em;color:#2b2b31}.head small{display:block;font-size:56px;color:#7c3aed}
+.card{position:absolute;background:#fff;border-radius:34px;box-shadow:0 30px 70px rgba(30,30,60,.22);padding:26px 40px;text-align:center}
+.card .d{font-size:32px;color:#555b66}.card .v{font-weight:800;font-size:110px;color:#16a34a;letter-spacing:-.02em;line-height:1.05}
+.end{position:absolute;font-weight:800;font-size:50px;padding:6px 18px;border-radius:14px;color:#fff}
+</style></head><body>
+<div id="root" data-composition-id="thumbs3" data-start="0" data-duration="3" data-width="1920" data-height="1080">
+
+<!-- H: presenter + the three results, Claude crowned -->
+<div id="th" class="th clip" data-start="0" data-duration="1" data-track-index="1">
+  <img class="full" src="a/studio.png" alt="" style="filter:blur(14px) brightness(.38) saturate(1.2);transform:scale(1.1)">
+  <img class="pres" src="p-wow.png" alt="" style="left:-260px;filter:drop-shadow(0 30px 60px #000)">
+  <div class="hHead"><span style="font-size:150px;text-shadow:0 8px 0 #7c5b00,0 20px 40px rgba(0,0,0,.7)">$150,000</span><br><span style="color:#fff;font-size:70px">3 AIs · 1 WEEK</span></div>
+  <div class="row" style="top:300px"><img class="ic" src="a/i-claude.png" alt="" style="position:relative;width:250px;margin:-40px"><div class="v pos">+$12,289</div></div>
+  <div class="crown" style="right:640px;top:220px">👑</div>
+  <div class="row" style="top:560px"><div class="tile" style="position:relative;width:170px;height:170px"><img src="grok.svg" alt=""></div><div class="v pos" style="font-size:112px">+$8,328</div></div>
+  <div class="row" style="top:790px"><div class="tile" style="position:relative;width:170px;height:170px"><img src="openai.svg" alt=""></div><div class="v neg" style="font-size:112px">−$2,839</div></div>
+  <div class="demo" style="left:40px;top:40px">DEMO ACCOUNT</div>
+</div>
+
+<!-- I: three icons face to face, "WHO WINS?" chrome -->
+<div id="ti" class="th clip" data-start="1" data-duration="1" data-track-index="1">
+  <img class="full" src="a/hk-wall.png" alt="" style="filter:blur(10px) brightness(.32) saturate(1.2);transform:scale(1.08)">
+  <img class="ic" src="a/i-claude.png" alt="" style="left:120px;top:150px;width:470px;transform:rotate(-6deg)">
+  <div class="tile" style="left:780px;top:210px;width:360px;height:360px"><img src="openai.svg" alt=""></div>
+  <div class="tile" style="left:1370px;top:180px;width:360px;height:360px;transform:rotate(6deg)"><img src="grok.svg" alt=""></div>
+  <div class="vs" style="left:590px">VS</div><div class="vs" style="left:1170px">VS</div>
+  <div class="lab" style="left:150px;color:#4ade80">+$12,289</div><div class="lab" style="left:750px;color:#fb7185">−$2,839</div><div class="lab" style="left:1340px;color:#4ade80">+$8,328</div>
+  <div class="chrome">WHO WINS?</div>
+  <div class="demo" style="right:40px;top:40px">$50K DEMO · 1 WEEK</div>
+</div>
+
+<!-- J: light chart race, Claude on top -->
+<div id="tj" class="th clip" data-start="2" data-duration="1" data-track-index="1">
+  <div class="grid"></div>
+  <svg style="position:absolute;inset:0;transform:translateY(110px)" viewBox="0 0 1920 1080">
+    <path d="M640 760 L800 720 L960 660 L1120 600 L1280 520 L1440 450 L1600 330" fill="none" stroke="#16a34a" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M640 760 L800 740 L960 700 L1120 690 L1280 610 L1440 580 L1600 500" fill="none" stroke="#3a3a42" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M640 760 L800 780 L960 770 L1120 820 L1280 800 L1440 850 L1600 880" fill="none" stroke="#e11d48" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="1600" cy="330" r="20" fill="#16a34a"/><circle cx="1600" cy="500" r="16" fill="#3a3a42"/><circle cx="1600" cy="880" r="16" fill="#e11d48"/></svg>
+  <img class="ic" src="a/i-claude.png" alt="" style="left:1620px;top:350px;width:200px">
+  <div class="tile" style="left:1650px;top:550px;width:120px;height:120px"><img src="grok.svg" alt=""></div>
+  <div class="tile" style="left:1650px;top:900px;width:120px;height:120px"><img src="openai.svg" alt=""></div>
+  <div class="head">CLAUDE vs GPT<br>vs GROK<small>$50K each · 1 week</small></div>
+  <div class="card" style="left:760px;top:420px"><div class="d">Claude Opus 5.5 · demo</div><div class="v">+24.6%</div></div>
+  <img class="pres" src="p-smile.png" alt="" style="left:-560px;height:1080px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.25))">
+</div>
+
+</div>
+<script>
+const tl=gsap.timeline({paused:true});tl.set({},{},3);
+window.__timelines=window.__timelines||{};window.__timelines["thumbs3"]=tl;
+</script></body></html>

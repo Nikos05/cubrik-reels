@@ -5,7 +5,8 @@ Fichier : `renders/cubrik-ai-battle.mp4` (4K, 4 min 58). Miniatures : `renders/t
 
 ## 3 titres (test A/B/C)
 
-1. I Gave Claude, ChatGPT and Grok $50,000 Each to Trade Gold
+1. I Gave $150,000 to Claude, ChatGPT and Grok. Here's the Result
+1b. I Gave Claude, ChatGPT and Grok $50,000 Each to Trade Gold
 2. Claude vs ChatGPT vs Grok: Which AI Makes the Most Money Trading?
 3. 3 AIs, $50K Each, 1 Week of Trading. One of Them Lost Money.
 
