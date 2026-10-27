@@ -15,6 +15,8 @@ Fichier : `renders/cubrik-ai-battle.mp4` (4K, 4 min 58). Miniatures : `renders/t
 - **H** : Max surpris + les 3 résultats, Claude couronné (va avec le titre 1)
 - **I** : les 3 logos face à face + « WHO WINS? » (va avec le titre 2)
 - **J** : courbes des 3 IA sur fond clair + carte « +24.6% » (va avec le titre 3)
+- **K** : laptop Analytics « +$12,289.00 » + tuiles cubrik + Claude qui brillent, Max surpris (style KDP)
+- **L** : « STEP-BY-STEP / COPY ME » + carte Claude « $62,289 Balance · demo », Max souriant (style Copy me)
 
 ## Description
 

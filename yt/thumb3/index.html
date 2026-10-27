@@ -33,8 +33,29 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000}
 .card{position:absolute;background:#fff;border-radius:34px;box-shadow:0 30px 70px rgba(30,30,60,.22);padding:26px 40px;text-align:center}
 .card .d{font-size:32px;color:#555b66}.card .v{font-weight:800;font-size:110px;color:#16a34a;letter-spacing:-.02em;line-height:1.05}
 .end{position:absolute;font-weight:800;font-size:50px;padding:6px 18px;border-radius:14px;color:#fff}
+/* K: laptop dashboard + glowing tiles (KDP style) */
+.kbg{position:absolute;inset:0;background:radial-gradient(circle at 70% 40%,#3a2410 0%,#120a06 55%,#050302 100%)}
+.lap{position:absolute;left:40px;top:300px;width:1120px;height:760px;background:#1c1c20;border-radius:36px 36px 0 0;padding:26px;box-shadow:0 40px 80px rgba(0,0,0,.7)}
+.scr{width:100%;height:100%;background:#fff;border-radius:16px;display:flex;overflow:hidden;color:#111}
+.sb{width:250px;border-right:2px solid #eceef3;padding:30px 24px;display:flex;flex-direction:column;gap:30px;font-size:30px;color:#3b3f48}.sb .on{color:#7c3aed;font-weight:600}
+.dash{flex:1;padding:24px 40px}.tabs{display:flex;gap:40px;font-size:28px;color:#3b3f48;border-bottom:2px solid #eceef3;padding-bottom:14px}.tabs .on{color:#7c3aed;border-bottom:5px solid #7c3aed;padding-bottom:10px}
+.tp{display:flex;justify-content:space-between;align-items:baseline;margin-top:24px}.tp b{font-size:46px}.tp span{font-size:36px;color:#3b3f48}
+.big{font-weight:800;font-size:150px;letter-spacing:-.03em;line-height:1.05;color:#111}
+.gain{font-size:38px;font-weight:700;color:#16a34a}
+.bars{display:flex;align-items:flex-end;gap:12px;height:200px;margin-top:14px}.bars i{flex:1;background:linear-gradient(180deg,#22c55e,#16a34a);border-radius:4px 4px 0 0}
+.glow{filter:drop-shadow(0 0 40px rgba(255,140,40,.75)) drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+.plus{position:absolute;font-weight:800;font-size:170px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.6)}
+/* L: light "copy me" card */
+.lbg{position:absolute;inset:0;background:linear-gradient(180deg,#f3ece6 0%,#eadfd6 100%)}
+.ban{position:absolute;left:130px;top:70px;background:#d9734e;color:#fff;font-weight:800;font-size:100px;letter-spacing:.02em;padding:4px 40px}
+.copy{position:absolute;left:100px;top:210px;font-weight:800;font-size:250px;line-height:1;color:#fff;-webkit-text-stroke:6px #1a1a1a;text-shadow:12px 14px 0 #1a1a1a;letter-spacing:.02em}
+.uline{position:absolute;left:120px;top:470px;width:980px;height:16px;background:#d9734e;border-radius:8px;transform:rotate(-1deg)}
+.bcard{position:absolute;left:150px;top:540px;width:960px;background:#fff;border-radius:26px;box-shadow:0 30px 60px rgba(60,30,10,.25);overflow:hidden;text-align:center;padding-top:30px}
+.bcard .hd{display:flex;align-items:center;justify-content:center;gap:20px;font-family:Georgia,serif;font-size:76px;color:#1a1a1a}.bcard .hd img{width:96px;height:96px;border-radius:20px;background:#d9734e;padding:14px;filter:none}
+.bcard .num{font-weight:800;font-size:190px;letter-spacing:-.02em;line-height:1.05;color:#111}
+.bcard .lb{font-size:44px;color:#7b6f66;font-weight:600;margin-bottom:22px}.bcard .ft{height:34px;background:#d9734e}
 </style></head><body>
-<div id="root" data-composition-id="thumbs3" data-start="0" data-duration="3" data-width="1920" data-height="1080">
+<div id="root" data-composition-id="thumbs3" data-start="0" data-duration="5" data-width="1920" data-height="1080">
 
 <!-- H: presenter + the three results, Claude crowned -->
 <div id="th" class="th clip" data-start="0" data-duration="1" data-track-index="1">
@@ -76,8 +97,31 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000}
   <img class="pres" src="p-smile.png" alt="" style="left:-560px;height:1080px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.25))">
 </div>
 
+<!-- K: laptop dashboard with the Claude agent's week, cubrik + Claude glowing tiles, Max pointing -->
+<div id="tk" class="th clip" data-start="3" data-duration="1" data-track-index="1">
+  <div class="kbg"></div>
+  <div class="lap"><div class="scr"><div class="sb"><span>Agents</span><span class="on">Analytics</span><span>Market</span><span>Library</span><span>Brokers</span></div>
+    <div class="dash"><div class="tabs"><span class="on">Overview</span><span>Trades</span><span>Sessions</span><span>Advice</span></div>
+      <div class="tp"><b>Total profit</b><span>Last 7 days</span></div>
+      <div class="big">+$12,289.00</div><div class="gain">+24.6% · Claude Opus 5.5 · demo account</div>
+      <div class="bars"><i style="height:22%"></i><i style="height:30%"></i><i style="height:26%"></i><i style="height:38%"></i><i style="height:34%"></i><i style="height:45%"></i><i style="height:41%"></i><i style="height:52%"></i><i style="height:48%"></i><i style="height:58%"></i><i style="height:55%"></i><i style="height:63%"></i><i style="height:60%"></i><i style="height:70%"></i><i style="height:66%"></i><i style="height:74%"></i><i style="height:71%"></i><i style="height:80%"></i><i style="height:77%"></i><i style="height:86%"></i><i style="height:90%"></i><i style="height:100%"></i></div></div></div></div>
+  <img class="ic glow" src="a/i-cubdark.png" alt="" style="left:120px;top:20px;width:400px;transform:rotate(-5deg)">
+  <div class="plus" style="left:520px;top:70px">+</div>
+  <img class="ic glow" src="a/i-claude.png" alt="" style="left:640px;top:10px;width:400px;transform:rotate(5deg)">
+  <img class="pres" src="p-wow.png" alt="" style="left:720px;height:1150px;filter:drop-shadow(0 30px 60px #000)">
+</div>
+
+<!-- L: light "COPY ME" + Claude balance card, Max smiling -->
+<div id="tl" class="th clip" data-start="4" data-duration="1" data-track-index="1">
+  <div class="lbg"></div>
+  <img class="pres" src="p-smile.png" alt="" style="left:500px;height:1150px;filter:drop-shadow(0 20px 40px rgba(60,30,10,.25))">
+  <div class="ban">STEP-BY-STEP</div>
+  <div class="copy">COPY ME</div><div class="uline"></div>
+  <div class="bcard"><div class="hd"><img src="a/i-claude.png" alt="" style="background:none;padding:0;width:110px;height:110px">Claude</div><div class="num">$62,289</div><div class="lb">Balance · demo · 1 week</div><div class="ft"></div></div>
+</div>
+
 </div>
 <script>
-const tl=gsap.timeline({paused:true});tl.set({},{},3);
+const tl=gsap.timeline({paused:true});tl.set({},{},5);
 window.__timelines=window.__timelines||{};window.__timelines["thumbs3"]=tl;
 </script></body></html>
