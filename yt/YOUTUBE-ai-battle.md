@@ -22,36 +22,23 @@ Fichier : `renders/cubrik-ai-battle.mp4` (4K, 4 min 58). Miniatures : `renders/t
 
 ## Description
 
-I gave three AIs the exact same job: trade gold for one week, with $50,000 each on a MetaTrader demo account.
-Same strategy, same prompt, same risk. The only thing that changed was the AI making the decisions: Claude Opus 5.5, ChatGPT and Grok.
+👉 Start free on a demo account: https://cubrik.ai
+📱 Get the app: https://cubrik.ai/app-download
 
-Results after one week (demo account, $50,000 each):
+I gave Claude, ChatGPT and Grok $50,000 each on a MetaTrader demo account, the same gold strategy and one week. Here's what happened.
+
 🥇 Claude Opus 5.5: +$12,289 (+24.6%)
 🥈 Grok: +$8,328 (+16.7%)
 🥉 ChatGPT: −$2,839 (−5.7%)
 
-In this video I show exactly how I set it up in cubrik, so you can run the same test yourself:
-- connecting MetaTrader to cubrik (trade-only access: it can never withdraw money)
-- the full smart money strategy on gold: 4H bias, liquidity sweeps at the London and New York opens, 15-minute change of character, fair value gap entry, partials at 2R, break even, news filter
-- the exact prompt given to all three AIs
-- duplicating one agent three times and choosing a different AI for each
-
-👉 Start free on a demo account: https://cubrik.ai
-📱 Get the app: https://cubrik.ai/app-download
-
-Chapters
-0:00 Three AIs, $50,000 each, one week
-0:23 Why this test
+0:00 The challenge
 0:46 What cubrik is
 1:10 The setup
 1:46 The strategy
-2:56 The exact prompt
-3:20 The week
+2:56 The prompt
 3:42 The results
 4:13 What it teaches us
-4:46 Run it yourself
 
-Important: these results come from a demo account, with deliberately aggressive risk (2% per trade), over a single week. One week is a very small sample: test longer before drawing conclusions, and start with much lower risk on a real account. The presenter in this video is AI-generated.
-Not financial advice. Past performance does not guarantee future results.
+Demo account, aggressive risk, one week. AI presenter. Not financial advice.
 
-#Claude #ChatGPT #Grok #AITrading #Gold #XAUUSD #SmartMoney #cubrik
+#Claude #ChatGPT #Grok #AITrading #Gold #cubrik
