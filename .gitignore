@@ -33,3 +33,10 @@ yt/thumb*/a/studio.png
 
 # YouTube Shorts variant: copies of raw-<ep>-<lang>/ with the last line swapped (rebuilt by YT=1 ./produce.sh)
 assets/raw-*-yt/
+
+# battle video (Claude vs ChatGPT vs Grok): only the raw voice lines are kept; trimmed voices, takes and the
+# generated composition are rebuilt by build-battle.mjs / produce-battle.py
+yt/assets/battle/*.wav
+yt/assets/battle/takes/
+yt/assets/battle/timeline.json
+yt/battle/

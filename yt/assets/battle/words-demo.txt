@@ -1,0 +1,34 @@
+== 02 11.836333
+Benchmarks@0.00 test@0.88 code,@1.36 math,@1.92 and@2.40 essays.@2.64 None@3.28 of@3.52 them@3.68 tell@3.84 you@4.08 what@4.24 happens@4.40 when@4.80 an@4.96 AI@5.20 has@5.68 to@5.84 read@6.00 a@6.24 gold@6.40 chart,@6.80 wait@7.36 for@7.60 the@7.76 right@7.84 setup,@8.08 and@8.56 pull@8.80 the@9.12 trigger@9.20 with@9.60 real@9.84 rules@10.24 and@10.72 real@10.96 risk.@11.28
+== 05 18.441375
+Kubrick@0.00 is@0.80 a@0.96 trading@1.04 workspace@1.52 with@2.16 the@2.32 most@2.48 powerful@2.72 AIs@3.28 inside.@3.84 Claude,@4.72 GPT,@5.52 Grok,@6.48 Gemini,@7.28 Deep@8.08 Seek,@8.48 and@9.04 more.@9.36 You@9.92 describe@10.24 a@10.72 strategy@10.88 in@11.36 plain@11.52 English,@11.92 Kubrick@12.40 turns@13.28 it@13.60 into@13.68 an@13.92 agent,@14.08 and@14.64 the@14.88 agent@15.04 watches@15.52 the@16.00 market@16.16 and@16.48 places@16.72 the@17.20 orders@17.36 on@17.68 your@17.76 broker.@17.92
+== 08 8.600708
+Connecting@0.08 MetaTrader@0.56 takes@1.44 about@1.76 30@2.00 seconds,@2.40 and@3.04 the@3.28 access@3.44 is@3.92 trade@4.16 only.@4.56 Cupric@5.04 can@5.84 place@6.00 orders,@6.32 but@6.96 it@7.12 can@7.28 never@7.44 withdraw@7.68 money.@8.24
+== 10 16.831875
+Step@0.00 three.@0.48 I@1.12 duplicated@1.36 the@2.16 agent@2.32 three@2.88 times.@3.20 Agent@3.84 one@4.24 runs@4.64 on@4.88 Claude@5.04 Opus@5.52 five@6.16 point@6.48 five.@6.72 Agent@7.28 two@7.76 on@8.16 ChatGPT.@8.32 Agent@9.68 three@10.08 on@10.48 Groc.@10.64 Same@11.68 market,@12.08 same@12.64 schedule,@13.04 same@13.76 risk.@14.16 Every@14.72 five@15.04 minutes@15.36 for@15.84 one@16.08 week.@16.32
+== 12 16.982750
+Gold@0.00 only,@0.64 XAU@1.28 USD.@2.16 It's@2.96 a@3.20 smart@3.28 money@3.60 strategy@4.00 with@4.56 a@4.72 news@4.88 filter@5.20 on@5.68 top.@5.84 First,@6.40 the@6.96 bias.@7.12 On@7.84 the@8.00 four-hour@8.16 chart,@8.80 the@9.28 AI@9.52 reads@10.00 the@10.32 market@10.48 structure.@10.80 If@11.52 price@11.76 is@12.08 breaking@12.24 high,@12.64 we@13.28 only@13.60 look@13.84 for@14.08 buys.@14.24 If@14.88 it's@15.04 breaking@15.28 lows,@15.60 only@16.16 sells.@16.48
+== 13 12.950917
+Second,@0.00 the@0.72 liquidity.@0.88 During@1.76 the@2.08 London@2.24 Open@2.64 and@3.04 the@3.20 New@3.28 York@3.52 Open,@3.84 the@4.32 AI@4.56 waits@5.04 for@5.36 price@5.60 to@6.00 sweep@6.16 the@6.64 Asian@6.80 session@7.28 high@7.76 or@8.16 low,@8.32 or@8.80 the@8.96 previous@9.12 days@9.52 high@9.84 or@10.16 low.@10.32 That's@10.72 where@11.04 retail@11.28 stop@11.84 losses@12.16 sit.@12.56
+== 14 11.059792
+Third,@0.00 the@0.72 entry.@1.04 After@1.84 the@2.08 sweep,@2.24 it@2.88 waits@3.04 for@3.36 a@3.52 change@3.68 of@4.00 character@4.16 on@4.64 the@4.80 15@4.88 minute@5.36 chart,@5.68 then@6.24 enters@6.56 on@6.96 the@7.04 retest@7.28 of@7.84 the@7.92 fair@8.00 value@8.40 gap@8.72 or@9.12 the@9.28 order@9.44 block@9.76 left@10.16 by@10.40 that@10.48 move.@10.64
+== 15 9.951750
+The@0.00 stop@0.24 goes@0.80 just@1.12 beyond@1.28 the@1.68 wick@1.92 of@2.32 the@2.40 sweep.@2.48 Half@3.12 the@3.36 position@3.52 is@3.92 closed@4.08 at@4.56 twice@4.72 the@5.04 risk,@5.12 the@5.68 stop@5.84 moves@6.16 to@6.40 break@6.56 even,@6.80 and@7.28 the@7.44 rest@7.68 runs@8.00 to@8.40 the@8.56 next@8.72 pool@8.96 of@9.20 liquidity.@9.36
+== 16 14.775250
+And@0.00 the@0.24 news@0.40 filter?@0.72 No@1.36 new@1.68 trade@2.00 thirty@2.48 minutes@2.88 before@3.28 or@3.84 after@4.08 high@4.40 impact@4.80 US@5.36 news,@5.68 like@6.16 CPI,@6.40 jobs,@7.36 or@7.84 the@8.00 Fed,@8.16 and@8.64 the@8.88 AI@9.04 reads@9.60 the@9.92 headlines@10.08 before@10.80 every@11.20 decision.@11.52 If@12.16 something@12.40 big@12.64 just@12.96 hit@13.20 gold,@13.44 it@14.00 skips.@14.16
+== 17 12.209583
+Risk@0.00 was@0.56 set@0.80 high@1.12 on@1.52 purpose@1.76 for@2.24 this@2.40 test.@2.64 2%@3.20 per@3.84 trade,@4.08 a@4.64 maximum@4.80 of@5.28 two@5.44 trades@5.76 a@6.16 day,@6.32 and@6.72 a@6.88 hard@7.04 daily@7.44 loss@7.92 limit@8.24 of@8.64 3%.@8.80 On@9.76 a@10.00 real@10.08 account,@10.32 you'd@10.80 start@11.20 much@11.52 lower.@11.68
+== 19 24.953250
+Trade@0.08 gold@0.56 only.@0.96 Use@1.52 the@1.76 four-hour@1.92 structure@2.64 for@3.04 bias.@3.20 During@3.92 London@4.24 and@4.64 New@4.80 York,@5.04 wait@5.52 for@5.76 a@5.92 sweep@6.08 of@6.48 the@6.56 Asian@6.80 or@7.28 previous@7.52 day@8.00 high@8.40 or@8.72 low,@8.88 then@9.44 a@9.76 15@9.84 minute@10.32 change@10.64 of@10.88 character,@11.04 and@11.60 enter@11.84 on@12.16 the@12.24 fair@12.40 value@12.72 gap@13.12 retest.@13.44 Stop@14.24 beyond@14.56 the@14.88 sweep,@14.96 half@15.52 off@15.84 at@16.08 2R,@16.24 then@16.96 break@17.20 even.@17.52 2%@18.08 risk,@18.64 two@19.12 trades@19.36 a@19.76 day@19.84 max,@20.16 stop@20.72 for@21.04 the@21.20 day@21.28 at@21.52 minus@21.68 3%.@22.08 No@22.88 trades@23.12 around@23.52 high@23.84 impact@24.08 news.@24.56
+== 21 12.961292
+Every@0.16 five@0.56 minutes,@0.88 each@1.44 agent@1.84 read@2.24 the@2.56 chart,@2.72 checked@3.20 the@3.60 news,@3.76 and@4.24 decided@4.48 on@5.04 its@5.20 own.@5.36 Wait,@6.00 enter,@6.64 manage,@7.28 or@7.92 close.@8.16 Every@9.12 decision@9.60 is@10.08 logged@10.32 in@10.80 Cubri,@10.96 with@11.84 the@12.00 reason@12.08 behind@12.40 it.@12.64
+== 24 7.899917
+In@0.00 third@0.24 place,@0.56 ChatGPT,@1.12 minus@2.72 $839,@3.20 down@5.92 5.7%.@6.32
+== 25 7.519917
+In@0.00 second@0.24 place,@0.64 Grok@1.20 plus@2.16 $328,@2.56 up@5.36 16.7%.@5.68
+== 26 9.692083
+And@0.00 in@0.24 first@0.48 place,@0.80 Claude@1.28 Opus@1.92 five@2.72 point@3.20 five,@3.52 plus@4.16 twelve@4.56 thousand@5.12 two@5.60 hundred@5.92 eighty@6.24 nine@6.48 dollars,@6.80 up@7.52 twenty@7.84 four@8.32 point@8.56 six@8.80 percent.@9.12
+== 29 13.019625
+First,@0.00 the@0.72 rules@0.96 aren't@1.44 enough.@1.76 Smart@2.48 money@2.96 concepts@3.36 leave@3.92 room@4.16 for@4.48 interpretation,@4.72 and@5.76 that's@6.00 exactly@6.32 where@6.80 the@7.04 AIs@7.20 differ.@7.76 What@8.32 counts@8.56 as@8.88 a@9.12 real@9.20 sweep,@9.52 a@10.16 clean@10.32 change@10.64 of@10.96 character,@11.12 a@11.84 good@12.00 retest.@12.24
+== 30 11.668375
+Second,@0.00 one@0.80 week@1.20 is@1.60 a@1.76 very@2.00 small@2.32 sample.@2.80 These@3.44 results@3.68 come@4.16 from@4.40 a@4.56 demo@4.72 account@5.20 with@5.76 aggressive@6.00 risk@6.72 in@7.36 one@7.68 specific@8.00 week.@8.56 Run@9.20 it@9.52 longer@9.76 before@10.16 drawing@10.56 conclusions.@10.96
