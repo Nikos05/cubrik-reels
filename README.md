@@ -41,6 +41,15 @@ choisit les scènes, génère la voix Algenib dans Flora, vérifie chaque prise,
 `beginner`, `lostmoney`, `smallbudget`, `genz`, `crypto` (voix Gacrux). Le reel de lancement
 (« Claude just killed day traders ») : `REEL_LANG=fr node build.mjs && ./finalize.sh`.
 
+## Série TikTok « lien en bio » (Paulito AI, FR, 100 % cubrik)
+
+39 reels FR sans mention de Claude, focus cubrik, CTA final « Le lien est dans ma bio ».
+
+- Scripts et scènes : `lib/bio-specs.mjs` (un objet par reel) + `lib/bio-episode.mjs` (le builder), épisodes `episodes/b-*.mjs`
+- Voix : `assets/raw-b-<id>-fr/` (assemblées depuis la banque de voix avec `bio-assemble.mjs`)
+- Légendes TikTok : `bio-captions.mjs` → `bio-schedule.json`
+- Tout rendre : `./render-bio.sh` (ou un seul : `REEL_NOCLAUDE=1 ./produce.sh b-iatue fr`)
+
 ## Avec une personne à l'écran (UGC)
 
 - **Tu te filmes toi-même** : lis les 8 lignes du script en une prise, puis dis à Claude « fais la vidéo

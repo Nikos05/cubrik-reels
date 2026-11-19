@@ -1,0 +1,4 @@
+cryptonuit 5 run_m17d59g2e7dvcfw97vx90fk50s8j8626
+cryptonuit 6 run_m171je9w205vj206k9ca39xbd58j88ar
+cryptonuit 7 run_m173z2jf8cq2m12s87nxeezchx8j8b1n
+ctaf 8 run_m176sa4p742xe5j54wbt17m43h8j96dt

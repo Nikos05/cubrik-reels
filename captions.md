@@ -849,3 +849,79 @@ Commente "TERMINAL" et je t'envoie le guide de setup 👇
 Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs. Chiffres issus d'un compte démo et d'un backtest.
 
 #trading #or #wallstreet #claude #ia #tradingauto #backtest #cubrik
+
+---
+
+# TikTok FR (Paulito AI) — reprise des hooks gagnants, CTA « lien en bio » (2026-11-16)
+
+## B1. Claude vient de tuer les day traders — `cubrik-tuedt-fr.mp4`
+
+Claude vient de tuer les day traders 🧡
+
+Tu écris ta stratégie en une phrase, cubrik la transforme en agent qui trade pour toi, connecté à Claude.
+
+Rien ne passe en live sans ton accord. Lien en bio pour tester gratuitement en démo 👆
+
+Pas un conseil financier. Le trading comporte un risque de perte.
+
+#trading #daytrading #claude #ia #tradingauto #cubrik
+
+## B2. La crypto ne dort jamais — `cubrik-cryptonuit-fr.mp4`
+
+La crypto ne dort jamais. Toi, si 🌙
+
+Binance, OKX ou Coinbase, ta stratégie avec tes mots, et un agent qui surveille le marché à 3 h du matin.
+
+Stops chez l'exchange, perte max par jour. Lien en bio pour tester gratuitement en démo 👆
+
+Pas un conseil financier. Le trading comporte un risque de perte.
+
+#crypto #bitcoin #solana #tradingcrypto #ia #claude #cubrik
+
+## B3. J'y croyais pas — `cubrik-jycroyaispas-fr.mp4`
+
+Une IA qui trade à ma place ? J'y croyais pas 🧡
+
+Mes règles, testées sur 5 ans de données, puis lancées sur un compte démo gratuit. Il suit le plan et explique chaque trade.
+
+Lien en bio pour tester gratuitement 👆
+
+Pas un conseil financier. Le trading comporte un risque de perte.
+
+#trading #forex #ia #claude #tradingauto #cubrik
+
+## B4. Lâche l'écran — `cubrik-lacheecran-fr.mp4`
+
+Tu gagnes déjà ? Alors lâche l'écran 🧡
+
+Ta stratégie telle quelle, testée sur des années de données, qui tourne sur tous tes comptes avec tes règles de risque.
+
+Lien en bio pour tester gratuitement en démo 👆
+
+Pas un conseil financier. Le trading comporte un risque de perte.
+
+#trading #nasdaq #daytrading #ia #claude #cubrik
+
+## B5. Pendant que je dormais — `cubrik-dodowin-fr.mp4`
+
++347 $ pendant que je dormais (compte démo) 😴
+
+Une stratégie sur l'or en une phrase. À 4 h du matin le prix revient dans ma zone, l'IA achète avec SL et TP déjà placés.
+
+Lien en bio pour tester gratuitement en démo 👆
+
+Compte démo, montants illustratifs. Pas un conseil financier. Les performances passées ne préjugent pas des résultats futurs.
+
+#trading #or #xauusd #ia #claude #tradingauto #cubrik
+
+## B6. Wall Street paie 30k pour ça — `cubrik-wallstfr-fr.mp4`
+
+Wall Street paie 30 000 $ par an pour ça 🧡
+
+Prix en direct, news et analyse par IA sur tous les marchés, puis n'importe quel setup transformé en agent.
+
+Lien en bio pour tester gratuitement en démo 👆
+
+Pas un conseil financier. Le trading comporte un risque de perte.
+
+#trading #wallstreet #bourse #ia #claude #cubrik
